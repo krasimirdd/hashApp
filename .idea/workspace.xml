@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a9ecd7da-7b13-4b4c-9495-f9d6f8c21aaa" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="hashApp" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="hashApp" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="hashApp" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="hashApp" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build setup" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1b4jqk4geTBP8q5SVBemQxRE9xA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.41379312" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="show.unlinked.gradle.project.popup" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\kdimitrov\Home\Java\hashApp\src\test\resources" />
+      <recent name="C:\Users\kdimitrov\Home\Java\hashApp\src\main\java" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.hashApp [test]">
+    <configuration name="HexUtilsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;HexUtilsTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="HexUtilsTest.convertToUint" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;HexUtilsTest.convertToUint&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="hashApp [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="FkstHashStringTest.generateHash" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hashApp.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FkstHashStringTest" />
+      <option name="METHOD_NAME" value="generateHash(java.lang.String)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BSP.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HexUtilsTest" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="hashApp.test" />
+      <useClassPathOnly />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="HexUtilsTest" />
+      <option name="METHOD_NAME" value="convertFromLittleEndianTo64_AndBack" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BSP.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HexUtilsTest.convertToUint" type="JUnit" factoryName="JUnit">
+      <module name="hashApp.test" />
+      <useClassPathOnly />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="HexUtilsTest" />
+      <option name="METHOD_NAME" value="convertToUint" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BSP.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BSP.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Gradle.HexUtilsTest" />
+      <item itemvalue="Gradle.HexUtilsTest.convertToUint" />
+      <item itemvalue="JUnit.HexUtilsTest.convertToUint" />
+      <item itemvalue="JUnit.HexUtilsTest" />
+      <item itemvalue="JUnit.FkstHashStringTest.generateHash" />
+      <item itemvalue="Gradle.hashApp [test]" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.hashApp [test]" />
+        <item itemvalue="Gradle.HexUtilsTest" />
+        <item itemvalue="Gradle.HexUtilsTest.convertToUint" />
+        <item itemvalue="JUnit.HexUtilsTest" />
+        <item itemvalue="JUnit.FkstHashStringTest.generateHash" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a9ecd7da-7b13-4b4c-9495-f9d6f8c21aaa" name="Default Changelist" comment="" />
+      <created>1587898452192</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587898452192</updated>
+      <workItem from="1587898456883" duration="21109000" />
+      <workItem from="1587969385224" duration="220000" />
+      <workItem from="1588407299340" duration="700000" />
+      <workItem from="1588408046222" duration="9533000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="586" y="218" key="#Inspections" timestamp="1587934040299">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="586" y="218" key="#Inspections/0.0.1920.1080@0.0.1920.1080" timestamp="1587934040299" />
+    <state x="440" y="114" key="#Project_Structure" timestamp="1587913698964">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="440" y="114" key="#Project_Structure/0.0.1920.1080@0.0.1920.1080" timestamp="1587913698964" />
+    <state x="414" y="194" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588417868443">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="414" y="194" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1588417868443" />
+    <state x="92" y="92" width="1736" height="896" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1588409083645">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="92" y="92" width="1736" height="896" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1588409083645" />
+    <state x="729" y="334" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587933781501">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="729" y="334" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1587933781501" />
+    <state x="765" y="243" key="#com.intellij.ide.util.MemberChooser" timestamp="1587918154401">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="765" y="243" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1587918154401" />
+    <state x="730" y="403" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1587912982780">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="730" y="403" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1080@0.0.1920.1080" timestamp="1587912982780" />
+    <state x="389" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1587918090900">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="389" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1587918090900" />
+    <state x="690" y="286" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1587931407656">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="690" y="286" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1587931407656" />
+    <state x="715" y="160" key="#xdebugger.evaluate" timestamp="1588410396350">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="715" y="160" key="#xdebugger.evaluate/0.0.1920.1080@0.0.1920.1080" timestamp="1588410396350" />
+    <state width="447" height="618" key="DebuggerActiveHint" timestamp="1588408155001">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="447" height="618" key="DebuggerActiveHint/0.0.1920.1080@0.0.1920.1080" timestamp="1588408155001" />
+    <state x="834" y="440" width="475" height="200" key="Github.ShareDialog" timestamp="1588419889619">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="834" y="440" width="475" height="200" key="Github.ShareDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1588419889619" />
+    <state x="702" y="160" key="Github.UntrackedFilesDialog" timestamp="1588419899098">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="702" y="160" key="Github.UntrackedFilesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1588419899098" />
+    <state width="1875" height="283" key="GridCell.Tab.0.bottom" timestamp="1588417782604">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1875" height="283" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1588417782604" />
+    <state width="1875" height="283" key="GridCell.Tab.0.center" timestamp="1588417782603">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1875" height="283" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1588417782603" />
+    <state width="1875" height="283" key="GridCell.Tab.0.left" timestamp="1588417782603">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1875" height="283" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1588417782603" />
+    <state width="1875" height="283" key="GridCell.Tab.0.right" timestamp="1588417782604">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1875" height="283" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1588417782604" />
+    <state width="1875" height="360" key="GridCell.Tab.1.bottom" timestamp="1588410459865">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1875" height="360" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1588410459865" />
+    <state width="1875" height="360" key="GridCell.Tab.1.center" timestamp="1588410459865">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1875" height="360" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1588410459865" />
+    <state width="1875" height="360" key="GridCell.Tab.1.left" timestamp="1588410459865">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1875" height="360" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1588410459865" />
+    <state width="1875" height="360" key="GridCell.Tab.1.right" timestamp="1588410459865">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1875" height="360" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1588410459865" />
+    <state x="468" y="184" key="SettingsEditor" timestamp="1587916737714">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="468" y="184" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1587916737714" />
+    <state width="968" height="548" key="XDebugger.FullValuePopup" timestamp="1587903855287">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="968" height="548" key="XDebugger.FullValuePopup/0.0.1920.1080@0.0.1920.1080" timestamp="1587903855287" />
+    <state x="674" y="432" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1587901179338">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="674" y="432" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1080@0.0.1920.1080" timestamp="1587901179338" />
+    <state x="565" y="150" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1588410625539">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="565" y="150" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1588410625539" />
+    <state x="667" y="248" width="889" height="584" key="find.popup" timestamp="1587934925283">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="667" y="248" width="889" height="584" key="find.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1587934925283" />
+    <state x="365" y="108" key="new project wizard" timestamp="1587931433591">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="365" y="108" key="new project wizard/0.0.1920.1080@0.0.1920.1080" timestamp="1587931433591" />
+    <state x="615" y="250" key="run.anything.popup" timestamp="1587916597094">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="615" y="250" key="run.anything.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1587916597094" />
+    <state x="615" y="193" width="670" height="676" key="search.everywhere.popup" timestamp="1587901657079">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="615" y="193" width="670" height="676" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1587901657079" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/FkstHashStringTest.java</url>
+          <line>65</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/FkstHashConsoleTest.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/FkstHashFileTest.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/FkstHashFileTest.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/HexUtilsTest.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class FkstHashStringTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class FkstHashStringTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/default-package.html">default-package</a> &gt; FkstHashStringTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">9</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.080s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard error</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Method name</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">[1] password</td>
+<td class="success">generateHash(String)[1]</td>
+<td class="success">0.008s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[2] changeit</td>
+<td class="success">generateHash(String)[2]</td>
+<td class="success">0.007s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[3] 1234</td>
+<td class="success">generateHash(String)[3]</td>
+<td class="success">0.007s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[4]  </td>
+<td class="success">generateHash(String)[4]</td>
+<td class="success">0.006s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[5] [Sv.NB]D3X&lt;;f/W[X&amp;VKta:}hUe*3)r/'jeV6fx6W)W]qUA{yMx=ns&lt;^p@9&amp;%W8G</td>
+<td class="success">generateHash(String)[5]</td>
+<td class="success">0.007s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[1] password</td>
+<td class="success">generateHash_assert_different(String)[1]</td>
+<td class="success">0.015s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[1] password</td>
+<td class="success">generateHash_assert_same(String)[1]</td>
+<td class="success">0.019s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[1] </td>
+<td class="success">generateHash_empty_string(String)[1]</td>
+<td class="success">0.007s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[1] null</td>
+<td class="success">generateHash_null_string(String)[1]</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard error</h2>
+<span class="code">
+<pre>May 02, 2020 12:30:58 PM TestHelper$TestResultLoggerExtension beforeEach
+INFO: Executing test void FkstHashStringTest.generateHash_null_string(java.lang.String)
+May 02, 2020 12:30:58 PM TestHelper$TestResultLoggerExtension testSuccessful
+INFO: Test Successful for test void FkstHashStringTest.generateHash_null_string(java.lang.String) - [1] null 
+May 02, 2020 12:30:58 PM TestHelper$TestResultLoggerExtension beforeEach
+INFO: Executing test void FkstHashStringTest.generateHash_assert_different(java.lang.String)
+May 02, 2020 12:30:58 PM FkstHashStringTest lambda$generateHash_assert_different$2
+INFO:  -&gt; result  :  e9a75486736a550af4fea861e2378305c4a555a05094dee1dca2f68afea49cc3a50e8de6ea131ea521311f4d6fb054a146e8282f8e35ff2e6368c1a62e909716
+May 02, 2020 12:30:58 PM TestHelper$TestResultLoggerExtension testSuccessful
+INFO: Test Successful for test void FkstHashStringTest.generateHash_assert_different(java.lang.String) - [1] password 
+May 02, 2020 12:30:58 PM TestHelper$TestResultLoggerExtension beforeEach
+INFO: Executing test void FkstHashStringTest.generateHash_assert_same(java.lang.String)
+May 02, 2020 12:30:58 PM FkstHashStringTest lambda$generateHash_assert_same$1
+INFO:  -&gt; result  :  e9a75486736a550af4fea861e2378305c4a555a05094dee1dca2f68afea49cc3a50e8de6ea131ea521311f4d6fb054a146e8282f8e35ff2e6368c1a62e909716
+May 02, 2020 12:30:58 PM TestHelper$TestResultLoggerExtension testSuccessful
+INFO: Test Successful for test void FkstHashStringTest.generateHash_assert_same(java.lang.String) - [1] password 
+May 02, 2020 12:30:58 PM TestHelper$TestResultLoggerExtension beforeEach
+INFO: Executing test void FkstHashStringTest.generateHash(java.lang.String)
+May 02, 2020 12:30:58 PM FkstHashStringTest lambda$generateHash$0
+INFO:  -&gt; result  :  e9a75486736a550af4fea861e2378305c4a555a05094dee1dca2f68afea49cc3a50e8de6ea131ea521311f4d6fb054a146e8282f8e35ff2e6368c1a62e909716
+May 02, 2020 12:30:58 PM TestHelper$TestResultLoggerExtension testSuccessful
+INFO: Test Successful for test void FkstHashStringTest.generateHash(java.lang.String) - [1] password 
+May 02, 2020 12:30:58 PM TestHelper$TestResultLoggerExtension beforeEach
+INFO: Executing test void FkstHashStringTest.generateHash(java.lang.String)
+May 02, 2020 12:30:58 PM FkstHashStringTest lambda$generateHash$0
+INFO:  -&gt; result  :  3d7bc8ff047df30b118d405435e5c94bd038dbc77040b55a2fb2cdd2f2bb6f4656d2f6cd76c6d432e303264e65a0b802c9b21f15fbf254c3b2449a803ab0e490
+May 02, 2020 12:30:58 PM TestHelper$TestResultLoggerExtension testSuccessful
+INFO: Test Successful for test void FkstHashStringTest.generateHash(java.lang.String) - [2] changeit 
+May 02, 2020 12:30:58 PM TestHelper$TestResultLoggerExtension beforeEach
+INFO: Executing test void FkstHashStringTest.generateHash(java.lang.String)
+May 02, 2020 12:30:58 PM FkstHashStringTest lambda$generateHash$0
+INFO:  -&gt; result  :  d760688da522b4dc3350e6fb68961b0934f911c7d0ff337438cabf4608789ba94ce70b6601d7e08a279ef088716c4b1913b984513fea4c557d404d0598d4f2f1
+May 02, 2020 12:30:58 PM TestHelper$TestResultLoggerExtension testSuccessful
+INFO: Test Successful for test void FkstHashStringTest.generateHash(java.lang.String) - [3] 1234 
+May 02, 2020 12:30:58 PM TestHelper$TestResultLoggerExtension beforeEach
+INFO: Executing test void FkstHashStringTest.generateHash(java.lang.String)
+May 02, 2020 12:30:58 PM FkstHashStringTest lambda$generateHash$0
+INFO:  -&gt; result  :  e307daea2f0168daa1318e2faa2d67791e9d8e03692a6f7d1eb974e664fe721e81a47b4cf3d0eb19ae5d57afa19a095941cad5a5c050774ad56a8e5e21105757
+May 02, 2020 12:30:58 PM TestHelper$TestResultLoggerExtension testSuccessful
+INFO: Test Successful for test void FkstHashStringTest.generateHash(java.lang.String) - [4]   
+May 02, 2020 12:30:58 PM TestHelper$TestResultLoggerExtension beforeEach
+INFO: Executing test void FkstHashStringTest.generateHash(java.lang.String)
+May 02, 2020 12:30:58 PM FkstHashStringTest lambda$generateHash$0
+INFO:  -&gt; result  :  cd16bab17d3ccf21a6dd52b6c8495fadbc9bbfabd3af3b05828509fc866442502476d5068c7003e4e55396ee88d64e8526b4967d2f557f0f781d3398ddbecb5e
+May 02, 2020 12:30:58 PM TestHelper$TestResultLoggerExtension testSuccessful
+INFO: Test Successful for test void FkstHashStringTest.generateHash(java.lang.String) - [5] [Sv.NB]D3X&lt;;f/W[X&amp;VKta:}hUe*3)r/'jeV6fx6W)W]qUA{yMx=ns&lt;^p@9&amp;%W8G 
+May 02, 2020 12:30:58 PM TestHelper$TestResultLoggerExtension beforeEach
+INFO: Executing test void FkstHashStringTest.generateHash_empty_string(java.lang.String)
+May 02, 2020 12:30:58 PM FkstHashStringTest lambda$generateHash_empty_string$4
+INFO:  -&gt; result  :  a69f73cca23a9ac5c8b567dc185a756e97c982164fe25859e0d1dcc1475c80a615b2123af1f5f94c11e3e9402c3ac558f500199d95b6d3e301758586281dcd26
+May 02, 2020 12:30:58 PM TestHelper$TestResultLoggerExtension testSuccessful
+INFO: Test Successful for test void FkstHashStringTest.generateHash_empty_string(java.lang.String) - [1]  
+May 02, 2020 12:30:58 PM TestHelper$TestResultLoggerExtension afterAll
+INFO: Test result summary for FkstHashStringTest {SUCCESSFUL=9}
+May 02, 2020 12:30:58 PM TestHelper$TestResultLoggerExtension afterAll
+INFO: 
+
+
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 6.1</a> at May 2, 2020 12:30:58 PM</p>
+</div>
+</div>
+</body>
+</html>
