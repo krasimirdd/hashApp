@@ -76,6 +76,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources" />
@@ -239,7 +240,7 @@
       <workItem from="1587898456883" duration="21109000" />
       <workItem from="1587969385224" duration="220000" />
       <workItem from="1588407299340" duration="700000" />
-      <workItem from="1588408046222" duration="9533000" />
+      <workItem from="1588408046222" duration="9909000" />
     </task>
     <servers />
   </component>
@@ -291,6 +292,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="447" height="618" key="DebuggerActiveHint/0.0.1920.1080@0.0.1920.1080" timestamp="1588408155001" />
+    <state x="740" y="280" key="FileChooserDialogImpl" timestamp="1588419935326">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="740" y="280" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1588419935326" />
     <state x="834" y="440" width="475" height="200" key="Github.ShareDialog" timestamp="1588419889619">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

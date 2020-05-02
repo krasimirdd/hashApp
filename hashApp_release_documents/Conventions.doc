@@ -1,0 +1,1663 @@
+Message-ID: <434823241.72975.1588414672896.JavaMail.rdconf@lptxtechweb2>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_72974_1393606650.1588414672896"
+
+------=_Part_72974_1393606650.1588414672896
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Java Style Guide</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Java Style Guide</h1>
+    <div class=3D"Section1">
+        <p><style type=3D"text/css">/*<![CDATA[*/
+div.rbtoc1588414672795 {padding: 0px;}
+div.rbtoc1588414672795 ul {list-style: disc;margin-left: 0px;}
+div.rbtoc1588414672795 li {margin-left: 0px;padding-left: 0px;}
+
+/*]]>*/</style></p>
+<div class=3D"toc-macro rbtoc1588414672795">=20
+<ul class=3D"toc-indentation">=20
+<li><a href=3D"#JavaStyleGuide-1Introduction">1 Introduction</a>=20
+<ul class=3D"toc-indentation">=20
+<li><a href=3D"#JavaStyleGuide-1.1Terminologynotes">1.1 Terminology notes</=
+a></li>=20
+<li><a href=3D"#JavaStyleGuide-1.2Guidenotes">1.2 Guide notes</a></li>=20
+</ul> </li>=20
+<li><a href=3D"#JavaStyleGuide-2Sourcefilebasics">2 Source file basics</a>=
+=20
+<ul class=3D"toc-indentation">=20
+<li><a href=3D"#JavaStyleGuide-2.1Filename">2.1 File name</a></li>=20
+<li><a href=3D"#JavaStyleGuide-2.2Fileencoding:UTF-8">2.2 File encoding: UT=
+F-8</a></li>=20
+<li><a href=3D"#JavaStyleGuide-2.3Specialcharacters">2.3 Special characters=
+</a></li>=20
+</ul> </li>=20
+<li><a href=3D"#JavaStyleGuide-3Sourcefilestructure">3 Source file structur=
+e</a>=20
+<ul class=3D"toc-indentation">=20
+<li><a href=3D"#JavaStyleGuide-3.1Licenseorcopyrightinformation,ifpresent">=
+3.1 License or copyright information, if present</a></li>=20
+<li><a href=3D"#JavaStyleGuide-3.2Packagestatement">3.2 Package statement</=
+a></li>=20
+<li><a href=3D"#JavaStyleGuide-3.3Importstatements">3.3 Import statements</=
+a></li>=20
+<li><a href=3D"#JavaStyleGuide-3.4Classdeclaration">3.4 Class declaration</=
+a></li>=20
+</ul> </li>=20
+<li><a href=3D"#JavaStyleGuide-4Formatting">4 Formatting</a>=20
+<ul class=3D"toc-indentation">=20
+<li><a href=3D"#JavaStyleGuide-4.1Braces">4.1 Braces</a></li>=20
+<li><a href=3D"#JavaStyleGuide-4.2Blockindentation:+4spaces">4.2 Block inde=
+ntation: +4 spaces</a></li>=20
+<li><a href=3D"#JavaStyleGuide-4.3Onestatementperline">4.3 One statement pe=
+r line</a></li>=20
+<li><a href=3D"#JavaStyleGuide-4.4Columnlimit:120">4.4 Column limit: 120</a=
+></li>=20
+<li><a href=3D"#JavaStyleGuide-4.5Line-wrapping">4.5 Line-wrapping</a></li>=
+=20
+<li><a href=3D"#JavaStyleGuide-4.6Whitespace">4.6 Whitespace</a></li>=20
+<li><a href=3D"#JavaStyleGuide-4.7Groupingparentheses:mandatory!">4.7 Group=
+ing parentheses: mandatory!</a></li>=20
+<li><a href=3D"#JavaStyleGuide-4.8Specificconstructs">4.8 Specific construc=
+ts</a></li>=20
+</ul> </li>=20
+<li><a href=3D"#JavaStyleGuide-5Naming">5 Naming</a>=20
+<ul class=3D"toc-indentation">=20
+<li><a href=3D"#JavaStyleGuide-5.1Rulescommontoallidentifiers">5.1 Rules co=
+mmon to all identifiers</a></li>=20
+<li><a href=3D"#JavaStyleGuide-5.2Rulesbyidentifiertype">5.2 Rules by ident=
+ifier type</a></li>=20
+<li><a href=3D"#JavaStyleGuide-5.3Camelcase:defined">5.3 Camel case: define=
+d</a></li>=20
+</ul> </li>=20
+<li><a href=3D"#JavaStyleGuide-6ProgrammingPractices">6 Programming Practic=
+es</a>=20
+<ul class=3D"toc-indentation">=20
+<li><a href=3D"#JavaStyleGuide-6.1@Override:alwaysused">6.1 @Override: alwa=
+ys used</a></li>=20
+<li><a href=3D"#JavaStyleGuide-6.2Caughtexceptions:notignored">6.2 Caught e=
+xceptions: not ignored</a></li>=20
+<li><a href=3D"#JavaStyleGuide-6.3Staticmembers:qualifiedusingclass">6.3 St=
+atic members: qualified using class</a></li>=20
+<li><a href=3D"#JavaStyleGuide-6.4Finalizers:notused">6.4 Finalizers: not u=
+sed</a></li>=20
+<li><a href=3D"#JavaStyleGuide-6.5Classimmutability">6.5 Class immutability=
+</a></li>=20
+<li><a href=3D"#JavaStyleGuide-6.6Parameterextraction">6.6 Parameter extrac=
+tion</a></li>=20
+<li><a href=3D"#JavaStyleGuide-6.7Utilityclasses">6.7 Utility classes</a></=
+li>=20
+</ul> </li>=20
+<li><a href=3D"#JavaStyleGuide-7Javadoc">7 Javadoc</a>=20
+<ul class=3D"toc-indentation">=20
+<li><a href=3D"#JavaStyleGuide-7.1Formatting">7.1 Formatting</a></li>=20
+<li><a href=3D"#JavaStyleGuide-7.2Thesummaryfragment">7.2 The summary fragm=
+ent</a></li>=20
+<li><a href=3D"#JavaStyleGuide-7.3WhereJavadocisused">7.3 Where Javadoc is =
+used</a></li>=20
+</ul> </li>=20
+</ul>=20
+</div>
+<p></p>
+<h1 id=3D"JavaStyleGuide-1Introduction">1 Introduction</h1>
+<p>This document serves as the <strong>complete</strong> definition of codi=
+ng standards for source code in the Java Programming Language. A Java sourc=
+e file is described as being style if and only if it adheres to the rules h=
+erein.<br>Like other programming style guides, the issues covered span not =
+only aesthetic issues of formatting, but other types of conventions or codi=
+ng standards as well. However, this document focuses primarily on the <stro=
+ng>hard-and-fast rules</strong> that we follow universally, and avoids givi=
+ng advice that isn't clearly enforceable (whether by human or tool).</p>
+<h2 id=3D"JavaStyleGuide-1.1Terminologynotes">1.1 Terminology notes</h2>
+<p>In this document, unless otherwise clarified:<br>1. The term class is us=
+ed inclusively to mean an "ordinary" class, enum class, interface or annota=
+tion type (<span style=3D"color: rgb(51,153,102);">@interface</span>).<br>2=
+. The term member (of a class) is used inclusively to mean a nested class, =
+field, method, or constructor; that is, all top-level contents of a class e=
+xcept initializers and comments. <br>3. The term comment always refers to i=
+mplementation comments. We do not use the phrase "documentation comments", =
+instead using the common term "Javadoc."<br>Other "terminology notes" will =
+appear occasionally throughout the document.</p>
+<h2 id=3D"JavaStyleGuide-1.2Guidenotes">1.2 Guide notes</h2>
+<p>Example code in this document is <strong>non-normative</strong>. That is=
+, while the examples are in Style, they may not illustrate the only stylish=
+ way to represent the code. Optional formatting choices made in examples sh=
+ould not be enforced as rules.</p>
+<h1 id=3D"JavaStyleGuide-2Sourcefilebasics">2 Source file basics</h1>
+<h2 id=3D"JavaStyleGuide-2.1Filename">2.1 File name</h2>
+<p>The source file name consists of the case-sensitive name of the top-leve=
+l class it contains, plus the <span style=3D"color: rgb(51,153,102);">.java=
+</span> extension.</p>
+<h2 id=3D"JavaStyleGuide-2.2Fileencoding:UTF-8">2.2 File encoding: UTF-8</h=
+2>
+<p>Source files are encoded in <strong>UTF-8</strong>.</p>
+<h2 id=3D"JavaStyleGuide-2.3Specialcharacters">2.3 Special characters</h2>
+<h3 id=3D"JavaStyleGuide-2.3.1Whitespacecharacters">2.3.1 Whitespace charac=
+ters</h3>
+<p>Aside from the line terminator sequence, the <strong>ASCII horizontal sp=
+ace character</strong> (<strong>0x20</strong>) is the only whitespace chara=
+cter that appears anywhere in a source file. This implies that:</p>
+<ol>
+<li>All other whitespace characters in string and character literals are es=
+caped.</li>
+<li>Tab characters are <strong>NOT</strong> used for indentation.</li>
+</ol>
+<h3 id=3D"JavaStyleGuide-2.3.2Specialescapesequences">2.3.2 Special escape =
+sequences</h3>
+<p>For any character that has a special escape sequence (\b, \t, \n, \f, \r=
+, \", \' and \\), that sequence is used rather than the corresponding octal=
+ (e.g.&nbsp;\012) or Unicode (e.g.&nbsp;\u000a) escape.</p>
+<h3 id=3D"JavaStyleGuide-2.3.3Non-ASCIIcharacters">2.3.3 Non-ASCII characte=
+rs</h3>
+<p>For the remaining non-ASCII characters, either the actual Unicode charac=
+ter (e.g.&nbsp;<span style=3D"color: rgb(51,153,102);">=E2=88=9E</span>) or=
+ the equivalent Unicode escape (e.g.&nbsp;<span style=3D"color: rgb(51,153,=
+102);">\u221e</span>) is used. The choice depends only on which makes the c=
+ode easier to read and understand, although Unicode escapes outside string =
+literals and comments are strongly discouraged.</p>
+<div class=3D"confluence-information-macro confluence-information-macro-inf=
+ormation">
+<p class=3D"title">Tip</p>
+<span class=3D"aui-icon aui-icon-small aui-iconfont-info confluence-informa=
+tion-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p>In the Unicode escape case, and occasionally even when actual Unicode ch=
+aracters are used, an explanatory comment can be very helpful.</p>
+</div>
+</div>
+<p><br></p>
+<div class=3D"table-wrap">
+<table class=3D"confluenceTable">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh">Example</th>
+<th class=3D"confluenceTh">Note</th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">String unitAbbrev =3D "=CE=BCs";</td>
+<td class=3D"confluenceTd">Best: perfectly clear even without a comment.</t=
+d>
+</tr>
+<tr>
+<td class=3D"confluenceTd">String unitAbbrev =3D "\u03bcs"; // "=CE=BCs"</t=
+d>
+<td class=3D"confluenceTd">Allowed, but there's no reason to do this.</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">String unitAbbrev =3D "\u03bcs"; // Greek letter=
+ mu, "s"</td>
+<td class=3D"confluenceTd">Allowed, but awkward and prone to mistakes.</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">String unitAbbrev =3D "\u03bcs";</=
+td>
+<td colspan=3D"1" class=3D"confluenceTd">Poor: the reader has no idea what =
+this is.</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">return '\ufeff' + content; // byte=
+ order mark</td>
+<td colspan=3D"1" class=3D"confluenceTd">Good: use escapes for non-printabl=
+e characters, and comment if necessary.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><br></p>
+<div class=3D"confluence-information-macro confluence-information-macro-inf=
+ormation">
+<p class=3D"title">Tip</p>
+<span class=3D"aui-icon aui-icon-small aui-iconfont-info confluence-informa=
+tion-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p>Never make your code less readable simply out of fear that some programs=
+ might not handle non-ASCII characters properly. If that should happen, tho=
+se programs are <strong>broken</strong> and they must be <strong>fixed</str=
+ong>.</p>
+</div>
+</div>
+<h1 id=3D"JavaStyleGuide-3Sourcefilestructure">3 Source file structure</h1>
+<p>A source file consists of, in order:</p>
+<ol>
+<li>License and copyright information&nbsp;</li>
+<li>Package statement&nbsp;</li>
+<li>Import statements&nbsp;</li>
+<li>Exactly one top-level class</li>
+</ol>
+<p><strong>Exactly one blank line</strong> separates each section that is p=
+resent.</p>
+<h2 id=3D"JavaStyleGuide-3.1Licenseorcopyrightinformation,ifpresent">3.1 Li=
+cense or copyright information, if present</h2>
+<p>If license or copyright information belongs in a file, it belongs here.<=
+/p>
+<h2 id=3D"JavaStyleGuide-3.2Packagestatement">3.2 Package statement</h2>
+<p>The package statement is <strong>not line-wrapped</strong>. The column l=
+imit (Section 4.4), does not apply to package statements.</p>
+<h2 id=3D"JavaStyleGuide-3.3Importstatements">3.3 Import statements</h2>
+<h3 id=3D"JavaStyleGuide-3.3.1Nowildcardimports">3.3.1 No wildcard imports<=
+/h3>
+<p><strong>Wildcard imports</strong>, static or otherwise, <strong>are not =
+used</strong>.</p>
+<h3 id=3D"JavaStyleGuide-3.3.2Noline-wrapping">3.3.2 No line-wrapping</h3>
+<p>Import statements are not line-wrapped. The column limit (Section 4.4, )=
+ does not apply to import statements.</p>
+<h3 id=3D"JavaStyleGuide-3.3.3Orderingandspacing">3.3.3 Ordering and spacin=
+g</h3>
+<p>Imports are ordered as follows:</p>
+<ol>
+<li>All non-static imports in a single block.</li>
+<li>All static imports in a single block.</li>
+</ol>
+<p>If there are both static and non-static imports, a single blank line sep=
+arates the two blocks. There are no other blank lines between import statem=
+ents.<br>Within each block the imported names appear in ASCII sort order. (=
+<strong>Note</strong>: this is not the same as the import statements being =
+in ASCII sort order, since '.' sorts before ';'.)</p>
+<h3 id=3D"JavaStyleGuide-3.3.4Nostaticimportforclasses">3.3.4 No static imp=
+ort for classes</h3>
+<p>Static import is not used for static nested classes. They are imported w=
+ith normal imports.</p>
+<h2 id=3D"JavaStyleGuide-3.4Classdeclaration">3.4 Class declaration</h2>
+<h3 id=3D"JavaStyleGuide-3.4.1Exactlyonetop-levelclassdeclaration">3.4.1 Ex=
+actly one top-level class declaration</h3>
+<p>Each top-level class resides in a source file of its own.</p>
+<h3 id=3D"JavaStyleGuide-3.4.2Orderingofclasscontents">3.4.2 Ordering of cl=
+ass contents</h3>
+<p>The order you choose for the members and initializers of your class can =
+have a great effect on learnability. However, there's no single correct rec=
+ipe for how to do it; different classes may order their contents in differe=
+nt ways.</p>
+<p>What is important is that each class uses <strong>some logical order</st=
+rong>, which its maintainer could explain if asked. For example, new method=
+s are not just habitually added to the end of the class, as that would yiel=
+d "chronological by date added" ordering, which is not a logical ordering.<=
+/p>
+<p>One possible example order that works is:</p>
+<p>First level order by type of member: constant fields section, static fie=
+lds section, instance fields section, constructors section, methods section=
+. Second level order for each separate section is by accesibility: public, =
+protected, private. Members within sections should be logically grouped</p>
+<p>(for example by functionality).</p>
+<h4 id=3D"JavaStyleGuide-3.4.2.1Overloads:neversplit">3.4.2.1 Overloads: ne=
+ver split</h4>
+<p>When a class has multiple constructors, or multiple methods with the sam=
+e name, these appear sequentially, with no other code in between (not even =
+private members).</p>
+<h1 id=3D"JavaStyleGuide-4Formatting">4 Formatting</h1>
+<p><strong>Terminology Note</strong>: block-like construct refers to the bo=
+dy of a class, method or constructor. Note that, by Section 4.8.3.1 on arra=
+y initializers, any array initializer may optionally be treated as if it we=
+re a block-like construct.</p>
+<h2 id=3D"JavaStyleGuide-4.1Braces">4.1 Braces</h2>
+<h3 id=3D"JavaStyleGuide-4.1.1Bracesareusedwhereoptional">4.1.1 Braces are =
+used where optional</h3>
+<p>Braces are used with <span style=3D"color: rgb(51,153,102);">if</span>, =
+<span style=3D"color: rgb(51,153,102);">else</span>, <span style=3D"color: =
+rgb(51,153,102);">for</span>, <span style=3D"color: rgb(51,153,102);">do</s=
+pan> and <span style=3D"color: rgb(51,153,102);">while</span> statements, e=
+ven when the body is empty or contains only a single statement.</p>
+<h3 id=3D"JavaStyleGuide-4.1.2Nonemptyblocks:K&amp;Rstyle">4.1.2 Nonempty b=
+locks: K &amp; R style</h3>
+<p>Braces follow the Kernighan and Ritchie style ("Egyptian brackets") for =
+nonempty blocks and block-like constructs:</p>
+<ul style=3D"list-style-type: square;">
+<li>No line break before the opening brace.</li>
+<li>Line break after the opening brace.</li>
+<li>Line break before the closing brace.</li>
+<li>Line break after the closing brace, only if that brace terminates a sta=
+tement or terminates the body of a method, constructor, or named class. For=
+ example, there is no line break after the brace if it is followed by else =
+or a comma.</li>
+</ul>
+<p><br></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">=20
+<div class=3D"codeHeader panelHeader pdl hide-border-bottom" style=3D"borde=
+r-bottom-width: 1px;">=20
+<b class=3D"code-title">Examples</b>=20
+<span class=3D"collapse-source expand-control" style=3D"display:none;"><spa=
+n class=3D"expand-control-icon icon">&nbsp;</span><span class=3D"expand-con=
+trol-text">Expand source</span></span>=20
+<span class=3D"collapse-spinner-wrapper"></span>=20
+</div>=20
+<div class=3D"codeContent panelContent pdl hide-toolbar">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: true; theme: DJango; collapse: true" data-theme=3D"DJango">=
+return () -&gt; {
+    while (condition()) {
+        method();
+    }
+};
+
+return new MyClass() {
+    @Override
+    public void method() {
+        if (condition()) {
+            try {
+                something();
+            } catch (ProblemException e) {
+                recover();
+            }
+        } else if (otherCondition()) {
+            somethingElse();
+        } else {
+            lastThing();
+        }
+    }
+};</pre>=20
+</div>=20
+</div>
+<p>A few exceptions for enum classes are given in Section 4.8.1, Enum class=
+es.</p>
+<h3 id=3D"JavaStyleGuide-4.1.3Emptyblocks">4.1.3 Empty blocks</h3>
+<p>An empty block or block-like construct should be in K &amp; R style (as =
+described in Section 4.1.2). Always put a comment describing why the block =
+is left empty.</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">=20
+<div class=3D"codeHeader panelHeader pdl hide-border-bottom" style=3D"borde=
+r-bottom-width: 1px;">=20
+<b class=3D"code-title">Examples</b>=20
+<span class=3D"collapse-source expand-control" style=3D"display:none;"><spa=
+n class=3D"expand-control-icon icon">&nbsp;</span><span class=3D"expand-con=
+trol-text">Expand source</span></span>=20
+<span class=3D"collapse-spinner-wrapper"></span>=20
+</div>=20
+<div class=3D"codeContent panelContent pdl hide-toolbar">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: true; theme: DJango; collapse: true" data-theme=3D"DJango">=
+// This is not acceptable
+void doNothing() {}
+
+// This is acceptable
+void doNothingElse() {
+    // TODO pending implementation
+}
+// This is acceptable
+try {
+    doSomething();
+} catch (Exception e) {
+    logger.debug(=E2=80=9CException occurred.=E2=80=9D, e);
+}</pre>=20
+</div>=20
+</div>
+<h2 id=3D"JavaStyleGuide-4.2Blockindentation:+4spaces">4.2 Block indentatio=
+n: +4 spaces</h2>
+<p>Each time a new block or block-like construct is opened, the indent incr=
+eases by four spaces. When the block ends, the indent returns to the previo=
+us indent level. The indent level applies to both code and comments through=
+out the block. (See the example in Section 4.1.2.)</p>
+<h2 id=3D"JavaStyleGuide-4.3Onestatementperline">4.3 One statement per line=
+</h2>
+<p>Each statement is followed by a line break.</p>
+<h2 id=3D"JavaStyleGuide-4.4Columnlimit:120">4.4 Column limit: 120</h2>
+<p>Java code has a column limit of 120 characters. A "character" means any =
+Unicode code point. Except as noted below, any line that would exceed this =
+limit must be line-wrapped, as explained in Section 4.5, Line-wrapping.</p>
+<div class=3D"confluence-information-macro confluence-information-macro-inf=
+ormation">
+<p class=3D"title">Tip</p>
+<span class=3D"aui-icon aui-icon-small aui-iconfont-info confluence-informa=
+tion-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p>Each Unicode code point counts as one character, even if its display wid=
+th is greater or less. For example, if using fullwidth characters, you may =
+choose to wrap the line earlier than where this rule strictly requires.</p>
+</div>
+</div>
+<p>Exceptions:</p>
+<ol>
+<li>Lines where obeying the column limit is not possible (for example, a lo=
+ng URL in Javadoc, or a long JSNI method reference).</li>
+<li><span style=3D"color: rgb(51,153,102);">package</span> and <span style=
+=3D"color: rgb(51,153,102);">import</span> statements (see Sections 3.2 Pac=
+kage statement and 3.3 Import statements).</li>
+<li>Command lines in a comment that may be cut-and-pasted into a shell.</li=
+>
+</ol>
+<h2 id=3D"JavaStyleGuide-4.5Line-wrapping">4.5 Line-wrapping</h2>
+<p><strong>Terminology Note</strong>: When code that might otherwise legall=
+y occupy a single line is divided into multiple lines, this activity is cal=
+led line-wrapping.</p>
+<p>There is no comprehensive, deterministic formula showing exactly how to =
+line-wrap in every situation. Very often there are several valid ways to li=
+ne-wrap the same piece of code.</p>
+<p><strong>Note</strong>: While the typical reason for line-wrapping is to =
+avoid overflowing the column limit, even code that would in fact fit within=
+ the column limit may be line-wrapped at the author's discretion.</p>
+<div class=3D"confluence-information-macro confluence-information-macro-inf=
+ormation">
+<p class=3D"title">Tip</p>
+<span class=3D"aui-icon aui-icon-small aui-iconfont-info confluence-informa=
+tion-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p>Extracting a method or local variable may solve the problem without the =
+need to line-wrap.</p>
+</div>
+</div>
+<h3 id=3D"JavaStyleGuide-4.5.1Wheretobreak">4.5.1 Where to break</h3>
+<p>The prime directive of line-wrapping is: prefer to break at a higher syn=
+tactic level. Also:</p>
+<ol>
+<li>When a line is broken at a non-assignment operator the break comes afte=
+r the symbol. Exception are the following "operator-like" symbols for which=
+ the break comes before the symbol:&nbsp;</li>
+</ol>
+<ul style=3D"list-style-type: square;">
+<li style=3D"list-style-type: none;background-image: none;">
+<ul style=3D"list-style-type: square;">
+<li>the dot separator (.)</li>
+<li>the two colons of a method reference (::)</li>
+</ul></li>
+</ul>
+<p style=3D"margin-left: 30.0px;">2.&nbsp;When a line is broken at an assig=
+nment operator the break typically comes after the symbol, but either way i=
+s acceptable.&nbsp;This also applies to the "assignment-operator-like" colo=
+n in an enhanced for ("foreach") statement.</p>
+<p style=3D"margin-left: 30.0px;">3. A method or constructor name stays att=
+ached to the open parenthesis (() that follows it.</p>
+<p style=3D"margin-left: 30.0px;">4. A comma (,) stays attached to the toke=
+n that precedes it.</p>
+<p style=3D"margin-left: 30.0px;">5. A line is never broken adjacent to the=
+ arrow in a lambda, except that a break may come immediately after the arro=
+w if the body of the lambda consists of a single unbraced expression.</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">=20
+<div class=3D"codeHeader panelHeader pdl hide-border-bottom" style=3D"borde=
+r-bottom-width: 1px;">=20
+<b class=3D"code-title">Examples</b>=20
+<span class=3D"collapse-source expand-control" style=3D"display:none;"><spa=
+n class=3D"expand-control-icon icon">&nbsp;</span><span class=3D"expand-con=
+trol-text">Expand source</span></span>=20
+<span class=3D"collapse-spinner-wrapper"></span>=20
+</div>=20
+<div class=3D"codeContent panelContent pdl hide-toolbar">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: true; theme: DJango; collapse: true" data-theme=3D"DJango">=
+MyLambda&lt;String, Long, Object&gt; lambda =3D
+    (String label, Long value, Object obj) -&gt; {
+         ...
+    };
+=20
+Predicate&lt;String&gt; predicate =3D str -&gt;
+    longExpressionInvolving(str);</pre>=20
+</div>=20
+</div>
+<p><strong>Note</strong>: The primary goal for line wrapping is to have cle=
+ar code, not necessarily code that fits in the smallest number of lines.</p=
+>
+<h3 id=3D"JavaStyleGuide-4.5.2Indentcontinuationlinesatleast+4spaces">4.5.2=
+ Indent continuation lines at least +4 spaces</h3>
+<p>When line-wrapping, each line after the first (each continuation line) i=
+s indented at least +4 from the original line.</p>
+<p>When there are multiple continuation lines, indentation may be varied be=
+yond +4 as desired. In general, two continuation lines use the same indenta=
+tion level if and only if they begin with syntactically parallel elements.<=
+/p>
+<p>Section 4.6.3 on Horizontal alignment addresses the discouraged practice=
+ of using a variable number of spaces to align certain tokens with previous=
+ lines.</p>
+<p>Exception to this is when declaring method/constructor with multiple par=
+ameters that are put on separate lines. Each new line starts just under whe=
+re the first parameter is (just after the open parenthesis).</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">=20
+<div class=3D"codeHeader panelHeader pdl hide-border-bottom" style=3D"borde=
+r-bottom-width: 1px;">=20
+<b class=3D"code-title">Examples</b>=20
+<span class=3D"collapse-source expand-control" style=3D"display:none;"><spa=
+n class=3D"expand-control-icon icon">&nbsp;</span><span class=3D"expand-con=
+trol-text">Expand source</span></span>=20
+<span class=3D"collapse-spinner-wrapper"></span>=20
+</div>=20
+<div class=3D"codeContent panelContent pdl hide-toolbar">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: true; theme: DJango; collapse: true" data-theme=3D"DJango">=
+// PUT EXAMPLE HERE</pre>=20
+</div>=20
+</div>
+<h2 id=3D"JavaStyleGuide-4.6Whitespace">4.6 Whitespace</h2>
+<h3 id=3D"JavaStyleGuide-4.6.1VerticalWhitespace">4.6.1 Vertical Whitespace=
+</h3>
+<p>A single blank line appears:</p>
+<ol>
+<li>Between consecutive members or initializers of a class: fields, constru=
+ctors, methods, nested classes, static initializers, and instance initializ=
+ers.&nbsp;
+<ul style=3D"list-style-type: square;">
+<li><strong>Exception</strong>: A blank line between two consecutive fields=
+ (having no other code between them) is optional. Such blank lines are used=
+ as needed to create logical groupings of fields.&nbsp;</li>
+<li><strong>Exception</strong>: Blank lines between enum constants are cove=
+red in Section 4.8.1.</li>
+</ul></li>
+<li>Between statements, as needed to organize the code into logical subsect=
+ions.&nbsp;</li>
+<li>No blank lines before the first member or initializer, nor after the la=
+st member or initializer of the class.</li>
+<li>As required by other sections of this document (such as Section 3, Sour=
+ce file structure, and Section 3.3, Import statements).</li>
+</ol>
+<p><strong>Multiple</strong> consecutive blank lines are forbidden.</p>
+<h3 id=3D"JavaStyleGuide-4.6.2Horizontalwhitespace">4.6.2 Horizontal whites=
+pace</h3>
+<p>Beyond where required by the language or other style rules, and apart fr=
+om literals, comments and Javadoc, a single ASCII space also appears in the=
+ following places <strong>only</strong>.</p>
+<p style=3D"margin-left: 30.0px;">1. Separating any reserved word, such as =
+<span style=3D"color: rgb(51,153,102);">if</span>, <span style=3D"color: rg=
+b(51,153,102);">for</span> or <span style=3D"color: rgb(51,153,102);">catch=
+</span>, from an open parenthesis (<span style=3D"color: rgb(51,153,102);">=
+(</span>) that follows it on that line&nbsp;</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">=20
+<div class=3D"codeHeader panelHeader pdl hide-border-bottom" style=3D"borde=
+r-bottom-width: 1px;">=20
+<b class=3D"code-title">Examples</b>=20
+<span class=3D"collapse-source expand-control" style=3D"display:none;"><spa=
+n class=3D"expand-control-icon icon">&nbsp;</span><span class=3D"expand-con=
+trol-text">Expand source</span></span>=20
+<span class=3D"collapse-spinner-wrapper"></span>=20
+</div>=20
+<div class=3D"codeContent panelContent pdl hide-toolbar">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: true; theme: DJango; collapse: true" data-theme=3D"DJango">=
+// PUT EXAMPLE HERE</pre>=20
+</div>=20
+</div>
+<p style=3D"margin-left: 30.0px;">2. Separating any reserved word, such as =
+<span style=3D"color: rgb(51,153,102);">else</span> or <span style=3D"color=
+: rgb(51,153,102);">catch</span>, from a closing curly brace (<span style=
+=3D"color: rgb(51,153,102);">}</span>) that precedes it on that line&nbsp;<=
+/p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">=20
+<div class=3D"codeHeader panelHeader pdl hide-border-bottom" style=3D"borde=
+r-bottom-width: 1px;">=20
+<b class=3D"code-title">Examples</b>=20
+<span class=3D"collapse-source expand-control" style=3D"display:none;"><spa=
+n class=3D"expand-control-icon icon">&nbsp;</span><span class=3D"expand-con=
+trol-text">Expand source</span></span>=20
+<span class=3D"collapse-spinner-wrapper"></span>=20
+</div>=20
+<div class=3D"codeContent panelContent pdl hide-toolbar">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: true; theme: DJango; collapse: true" data-theme=3D"DJango">=
+// PUT EXAMPLE HERE</pre>=20
+</div>=20
+</div>
+<p style=3D"margin-left: 30.0px;">3. Before any open curly brace (<span sty=
+le=3D"color: rgb(51,153,102);">{</span>), with two exceptions:</p>
+<ul style=3D"list-style-type: square;">
+<li style=3D"margin-left: 30.0px;"><span style=3D"color: rgb(51,153,102);">=
+@SomeAnnotation({a, b})</span> (no space is used)</li>
+<li style=3D"margin-left: 30.0px;"><span style=3D"color: rgb(51,153,102);">=
+String[][] x =3D {{"foo"}};</span> (no space is required between {{, by ite=
+m 8 below)</li>
+</ul>
+<p style=3D"margin-left: 30.0px;">4. On both sides of any binary or ternary=
+ operator. This also applies to the following "operator-like" symbols:</p>
+<ul style=3D"list-style-type: square;">
+<li style=3D"list-style-type: none;background-image: none;">
+<ul style=3D"list-style-type: square;">
+<li>the ampersand in a conjunctive type bound: <span style=3D"color: rgb(51=
+,153,102);">&lt;T extends Foo &amp; Bar&gt;</span></li>
+<li>the pipe for a catch block that handles multiple exceptions: <span styl=
+e=3D"color: rgb(51,153,102);">catch (FooException | BarException e)</span><=
+/li>
+<li>the colon (<span style=3D"color: rgb(51,153,102);">:</span>) in an enha=
+nced <span style=3D"color: rgb(51,153,102);">for</span> ("foreach") stateme=
+nt</li>
+<li>the arrow in a lambda expression: (<span style=3D"color: rgb(51,153,102=
+);">String str) -&gt; str.length()</span>)</li>
+</ul></li>
+</ul>
+<p style=3D"margin-left: 30.0px;">but not</p>
+<ul style=3D"list-style-type: square;">
+<li style=3D"list-style-type: none;background-image: none;">
+<ul style=3D"list-style-type: square;">
+<li>the two colons (<span style=3D"color: rgb(51,153,102);">::</span>) of a=
+ method reference, which is written like <span style=3D"color: rgb(51,153,1=
+02);">Object::toString</span></li>
+<li>the dot separator (<span style=3D"color: rgb(51,153,102);">.</span>), w=
+hich is written like <span style=3D"color: rgb(51,153,102);">object.toStrin=
+g()</span></li>
+</ul></li>
+</ul>
+<p style=3D"margin-left: 30.0px;">5. After <span style=3D"color: rgb(51,153=
+,102);">,:;</span> or the closing parenthesis (<span style=3D"color: rgb(51=
+,153,102);">)</span>) of a cast</p>
+<p style=3D"margin-left: 30.0px;">6. On both sides of the double slash (<sp=
+an style=3D"color: rgb(51,153,102);">//</span>) that begins an end-of-line =
+comment. Here, multiple spaces are allowed, but not required.</p>
+<p style=3D"margin-left: 30.0px;">7. Between the type and variable of a dec=
+laration: <span style=3D"color: rgb(51,153,102);">List&lt;String&gt; list</=
+span></p>
+<p style=3D"margin-left: 30.0px;">8. Optional just inside both braces of an=
+ array initializer:&nbsp;<span style=3D"color: rgb(51,153,102);">new int[] =
+{5, 6}</span> and <span style=3D"color: rgb(51,153,102);">new int[] { 5, 6 =
+}</span> are both valid</p>
+<p>This rule is never interpreted as requiring or forbidding additional spa=
+ce at the start or end of a line; it addresses only interior space.</p>
+<h3 id=3D"JavaStyleGuide-4.6.3Horizontalalignment:forbidden">4.6.3 Horizont=
+al alignment: forbidden</h3>
+<p><strong>Terminology Note</strong>: Horizontal alignment is the practice =
+of adding a variable number of additional spaces in your code with the goal=
+ of making certain tokens appear directly below certain other tokens on pre=
+vious lines.</p>
+<p>Here is an example without alignment, then using alignment:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">=20
+<div class=3D"codeHeader panelHeader pdl hide-border-bottom" style=3D"borde=
+r-bottom-width: 1px;">=20
+<b class=3D"code-title">Examples</b>=20
+<span class=3D"collapse-source expand-control" style=3D"display:none;"><spa=
+n class=3D"expand-control-icon icon">&nbsp;</span><span class=3D"expand-con=
+trol-text">Expand source</span></span>=20
+<span class=3D"collapse-spinner-wrapper"></span>=20
+</div>=20
+<div class=3D"codeContent panelContent pdl hide-toolbar">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: true; theme: DJango; collapse: true" data-theme=3D"DJango">=
+private int x; // this is fine
+private Color color; // this too
+
+
+private int x;       // forbidden as future edits
+private Color color; // may leave it unaligned</pre>=20
+</div>=20
+</div>
+<div class=3D"confluence-information-macro confluence-information-macro-inf=
+ormation">
+<p class=3D"title">Tip</p>
+<span class=3D"aui-icon aui-icon-small aui-iconfont-info confluence-informa=
+tion-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p>Alignment can aid readability, but it creates problems for future mainte=
+nance. Consider a future change that needs to touch just one line. This cha=
+nge may leave the formerly-pleasing formatting mangled, and that is <strong=
+>allowed</strong>. More often it prompts the coder (perhaps you) to adjust =
+whitespace on nearby lines as well, possibly triggering a cascading series =
+of reformattings. That one-line change now has a "blast radius." This can a=
+t worst result in pointless busywork, but at best it still corrupts version=
+ history information, slows down reviewers and exacerbates merge conflicts.=
+</p>
+</div>
+</div>
+<h2 id=3D"JavaStyleGuide-4.7Groupingparentheses:mandatory!">4.7 Grouping pa=
+rentheses: mandatory!</h2>
+<p>It is not reasonable to assume that every reader has the entire Java ope=
+rator precedence table memorized. Exception to this is operators learned in=
+ elementary school +, -, *, / - everyone working on this code must know the=
+ir precedence.</p>
+<h2 id=3D"JavaStyleGuide-4.8Specificconstructs">4.8 Specific constructs</h2=
+>
+<h3 id=3D"JavaStyleGuide-4.8.1Enumclasses">4.8.1 Enum classes</h3>
+<p>After each comma that follows an enum constant, a line break is optional=
+. Additional blank line (just one) is also allowed. This is one possibility=
+:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">=20
+<div class=3D"codeHeader panelHeader pdl hide-border-bottom" style=3D"borde=
+r-bottom-width: 1px;">=20
+<b class=3D"code-title">Examples</b>=20
+<span class=3D"collapse-source expand-control" style=3D"display:none;"><spa=
+n class=3D"expand-control-icon icon">&nbsp;</span><span class=3D"expand-con=
+trol-text">Expand source</span></span>=20
+<span class=3D"collapse-spinner-wrapper"></span>=20
+</div>=20
+<div class=3D"codeContent panelContent pdl hide-toolbar">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: true; theme: DJango; collapse: true" data-theme=3D"DJango">=
+private enum Answer {
+    YES {
+        @Override
+        public String toString() {
+            return "yes";
+        }
+    },
+    NO,
+    MAYBE
+}</pre>=20
+</div>=20
+</div>
+<p>An enum class with no methods and no documentation on its constants may =
+optionally be formatted as if it were an array initializer (see Section 4.8=
+.3.1 on array initializers). Anyway it=E2=80=99s recommended to put them on=
+ separate lines to make future changes easier.</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">=20
+<div class=3D"codeHeader panelHeader pdl hide-border-bottom" style=3D"borde=
+r-bottom-width: 1px;">=20
+<b class=3D"code-title">Examples</b>=20
+<span class=3D"collapse-source expand-control" style=3D"display:none;"><spa=
+n class=3D"expand-control-icon icon">&nbsp;</span><span class=3D"expand-con=
+trol-text">Expand source</span></span>=20
+<span class=3D"collapse-spinner-wrapper"></span>=20
+</div>=20
+<div class=3D"codeContent panelContent pdl hide-toolbar">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: true; theme: DJango; collapse: true" data-theme=3D"DJango">=
+private enum Suit { CLUBS, HEARTS, SPADES, DIAMONDS }</pre>=20
+</div>=20
+</div>
+<p>Since enum classes are classes, all other rules for formatting classes a=
+pply.</p>
+<h3 id=3D"JavaStyleGuide-4.8.2Variabledeclarations">4.8.2 Variable declarat=
+ions</h3>
+<h4 id=3D"JavaStyleGuide-4.8.2.1Onevariableperdeclaration">4.8.2.1 One vari=
+able per declaration</h4>
+<p>Every variable declaration (field or local) declares only one variable: =
+declarations such as <span style=3D"color: rgb(255,0,0);">int a, b;</span> =
+are not used.</p>
+<p><strong>Exception</strong>: Multiple variable declarations are acceptabl=
+e in the header of a for loop.</p>
+<h4 id=3D"JavaStyleGuide-4.8.2.2Declaredwhenneeded">4.8.2.2 Declared when n=
+eeded</h4>
+<p>Local variables are <strong>not</strong> habitually declared at the star=
+t of their containing block or block-like construct. Instead, local variabl=
+es are declared close to the point they are first used (within reason), to =
+minimize their scope. Local variable declarations typically have initialize=
+rs, or are initialized immediately after declaration.</p>
+<h3 id=3D"JavaStyleGuide-4.8.3Arrays">4.8.3 Arrays</h3>
+<h4 id=3D"JavaStyleGuide-4.8.3.1Arrayinitializers:canbe&quot;block-like&quo=
+t;">4.8.3.1 Array initializers: can be "block-like"</h4>
+<p>Any array initializer may optionally be formatted as if it were a "block=
+-like construct." For example, the following are all valid (not an exhausti=
+ve list):</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">=20
+<div class=3D"codeHeader panelHeader pdl hide-border-bottom" style=3D"borde=
+r-bottom-width: 1px;">=20
+<b class=3D"code-title">Examples</b>=20
+<span class=3D"collapse-source expand-control" style=3D"display:none;"><spa=
+n class=3D"expand-control-icon icon">&nbsp;</span><span class=3D"expand-con=
+trol-text">Expand source</span></span>=20
+<span class=3D"collapse-spinner-wrapper"></span>=20
+</div>=20
+<div class=3D"codeContent panelContent pdl hide-toolbar">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: true; theme: DJango; collapse: true" data-theme=3D"DJango">=
+new int[] {
+    0, 1, 2, 3
+}
+new int[] {
+    0,
+    1,
+    2,
+    3
+}
+new int[] {
+    0, 1,
+    2, 3
+}</pre>=20
+</div>=20
+</div>
+<h4 id=3D"JavaStyleGuide-4.8.3.2NoC-stylearraydeclarations">4.8.3.2 No C-st=
+yle array declarations</h4>
+<p>The square brackets form a part of the type, not the variable: <span sty=
+le=3D"color: rgb(51,153,102);">String[] args</span>, not <span style=3D"col=
+or: rgb(255,0,0);">String args[]</span>.</p>
+<h3 id=3D"JavaStyleGuide-4.8.4Switchstatements">4.8.4 Switch statements</h3=
+>
+<p><strong>Terminology Note</strong>: Inside the braces of a switch block a=
+re one or more statement groups. Each statement group consists of one or mo=
+re switch labels (either <span style=3D"color: rgb(51,153,102);">case FOO:<=
+/span> or <span style=3D"color: rgb(51,153,102);">default:</span>), followe=
+d by one or more statements (or, for the last statement group, zero or more=
+ statements).</p>
+<h4 id=3D"JavaStyleGuide-4.8.4.1Indentation">4.8.4.1 Indentation</h4>
+<p>As with any other block, the contents of a switch block are indented <st=
+rong>+4</strong>.</p>
+<p>After a case label, there is a line break, and the indentation level is =
+increased <strong>+4</strong>, exactly as if a block were being opened. The=
+ following case label returns to the previous indentation level, as if a bl=
+ock had been closed.</p>
+<h4 id=3D"JavaStyleGuide-4.8.4.2Fall-through:commented">4.8.4.2 Fall-throug=
+h: commented</h4>
+<p>Within a switch block, each statement group either terminates abruptly (=
+with a <span style=3D"color: rgb(51,153,102);">break</span>, <span style=3D=
+"color: rgb(51,153,102);">continue</span>, <span style=3D"color: rgb(51,153=
+,102);">return</span> or thrown exception), or is marked with a comment to =
+indicate that execution will or might continue into the next statement grou=
+p. Any comment that communicates the idea of fall-</p>
+<p>through is sufficient (typically <span style=3D"color: rgb(51,153,102);"=
+>// fall through</span>). This special comment is not required in the last =
+statement group of the switch block. Example:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">=20
+<div class=3D"codeHeader panelHeader pdl hide-border-bottom" style=3D"borde=
+r-bottom-width: 1px;">=20
+<b class=3D"code-title">Examples</b>=20
+<span class=3D"collapse-source expand-control" style=3D"display:none;"><spa=
+n class=3D"expand-control-icon icon">&nbsp;</span><span class=3D"expand-con=
+trol-text">Expand source</span></span>=20
+<span class=3D"collapse-spinner-wrapper"></span>=20
+</div>=20
+<div class=3D"codeContent panelContent pdl hide-toolbar">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: true; theme: DJango; collapse: true" data-theme=3D"DJango">=
+switch (input) {
+    case 1:
+    case 2:
+        prepareOneOrTwo();
+        // fall through
+    case 3:
+        handleOneTwoOrThree();
+        break;
+    default:
+        handleLargeNumber(input);
+}</pre>=20
+</div>=20
+</div>
+<p>Notice that no comment is needed after <span style=3D"color: rgb(51,153,=
+102);">case 1:</span>, only at the end of the statement group.</p>
+<h4 id=3D"JavaStyleGuide-4.8.4.3Thedefaultcaseispresent">4.8.4.3 The defaul=
+t case is present</h4>
+<p>Each switch statement includes a <span style=3D"color: rgb(51,153,102);"=
+>default</span> statement group, even if it contains no code.</p>
+<p><strong>Exception</strong>: A switch statement for an <span style=3D"col=
+or: rgb(51,153,102);">enum</span> type may omit the <span style=3D"color: r=
+gb(51,153,102);">default</span> statement group, if it includes explicit ca=
+ses covering all possible values of that type. This enables IDEs or other s=
+tatic analysis tools to issue a warning if any cases were missed.</p>
+<h3 id=3D"JavaStyleGuide-4.8.5Annotations">4.8.5 Annotations</h3>
+<p>Annotations applying to a class, method or constructor appear immediatel=
+y after the documentation block, and each annotation is listed on a line of=
+ its own (that is, one annotation per line). These line breaks do not const=
+itute line-wrapping (Section 4.5, Line-wrapping), so the indentation level =
+is not increased. Example:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">=20
+<div class=3D"codeHeader panelHeader pdl hide-border-bottom" style=3D"borde=
+r-bottom-width: 1px;">=20
+<b class=3D"code-title">Examples</b>=20
+<span class=3D"collapse-source expand-control" style=3D"display:none;"><spa=
+n class=3D"expand-control-icon icon">&nbsp;</span><span class=3D"expand-con=
+trol-text">Expand source</span></span>=20
+<span class=3D"collapse-spinner-wrapper"></span>=20
+</div>=20
+<div class=3D"codeContent panelContent pdl hide-toolbar">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: true; theme: DJango; collapse: true" data-theme=3D"DJango">=
+@Override
+@Nullable
+public String getNameIfPresent() { </pre>=20
+</div>=20
+</div>
+<p>There are no specific rules for formatting annotations on parameters, lo=
+cal variables, or types.&nbsp;</p>
+<h3 id=3D"JavaStyleGuide-4.8.6Comments">4.8.6 Comments</h3>
+<p>This section addresses implementation comments. Javadoc is addressed sep=
+arately in Section 7, Javadoc.</p>
+<p>Any line break may be preceded by arbitrary whitespace followed by an im=
+plementation comment. Such a comment renders the line non-blank.<br>4.8.6.1=
+ Block comment style<br>Block comments are indented at the same level as th=
+e surrounding code. They may be in <span style=3D"color: rgb(51,153,102);">=
+/* ... */</span> style or <span style=3D"color: rgb(51,153,102);">// ...</s=
+pan> style. For multi-line <span style=3D"color: rgb(51,153,102);">/* ... *=
+/</span> comments, subsequent lines must start with <span style=3D"color: r=
+gb(51,153,102);">*</span> aligned with the <span style=3D"color: rgb(51,153=
+,102);">*</span> on the previous line.</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">=20
+<div class=3D"codeHeader panelHeader pdl hide-border-bottom" style=3D"borde=
+r-bottom-width: 1px;">=20
+<b class=3D"code-title">Examples</b>=20
+<span class=3D"collapse-source expand-control" style=3D"display:none;"><spa=
+n class=3D"expand-control-icon icon">&nbsp;</span><span class=3D"expand-con=
+trol-text">Expand source</span></span>=20
+<span class=3D"collapse-spinner-wrapper"></span>=20
+</div>=20
+<div class=3D"codeContent panelContent pdl hide-toolbar">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: true; theme: DJango; collapse: true" data-theme=3D"DJango">=
+/*
+ * This is
+ * okay.=20
+ */
+
+
+// And so=20
+// is this.
+
+
+/* Or you can
+ * even do this. */</pre>=20
+</div>=20
+</div>
+<p>Comments are not enclosed in boxes drawn with asterisks or other charact=
+ers.</p>
+<div class=3D"confluence-information-macro confluence-information-macro-inf=
+ormation">
+<p class=3D"title">Tip</p>
+<span class=3D"aui-icon aui-icon-small aui-iconfont-info confluence-informa=
+tion-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p>When writing multi-line comments, use the <span style=3D"color: rgb(51,1=
+53,102);">/* ... */</span> style if you want automatic code formatters to r=
+e-wrap the lines when necessary (paragraph-style). Most formatters don't re=
+-wrap lines in <span style=3D"color: rgb(51,153,102);">// ...</span> style =
+comment blocks.</p>
+</div>
+</div>
+<h3 id=3D"JavaStyleGuide-4.8.7Modifiers">4.8.7 Modifiers</h3>
+<p>Class and member modifiers, when present, appear in the order recommende=
+d by the Java Language Specification:</p>
+<ul style=3D"list-style-type: square;">
+<li><span style=3D"color: rgb(51,153,102);">public</span></li>
+<li><span style=3D"color: rgb(51,153,102);">protected</span></li>
+<li><span style=3D"color: rgb(51,153,102);">private</span></li>
+<li><span style=3D"color: rgb(51,153,102);">abstract</span></li>
+<li><span style=3D"color: rgb(51,153,102);">default</span></li>
+<li><span style=3D"color: rgb(51,153,102);">static</span></li>
+<li><span style=3D"color: rgb(51,153,102);">final</span></li>
+<li><span style=3D"color: rgb(51,153,102);">transient</span></li>
+<li><span style=3D"color: rgb(51,153,102);">volatile</span></li>
+<li><span style=3D"color: rgb(51,153,102);">synchronized</span></li>
+<li><span style=3D"color: rgb(51,153,102);">native</span></li>
+<li><span style=3D"color: rgb(51,153,102);">strictfp</span></li>
+</ul>
+<h3 id=3D"JavaStyleGuide-4.8.8NumericLiterals">4.8.8 Numeric Literals</h3>
+<p><span style=3D"color: rgb(51,153,102);">long</span>-valued integer liter=
+als use an uppercase <span style=3D"color: rgb(51,153,102);">L</span> suffi=
+x, never lowercase (to avoid confusion with the digit <span style=3D"color:=
+ rgb(51,153,102);">1</span>). For example, <span style=3D"color: rgb(51,153=
+,102);">3000000000L</span> rather than <span style=3D"color: rgb(255,0,0);"=
+>3000000000l</span>.<br>Thousands separator is recommended: <span style=3D"=
+color: rgb(51,153,102);">2_000_000</span>.</p>
+<h1 id=3D"JavaStyleGuide-5Naming">5 Naming</h1>
+<h2 id=3D"JavaStyleGuide-5.1Rulescommontoallidentifiers">5.1 Rules common t=
+o all identifiers</h2>
+<p>Identifiers use only ASCII letters and digits, and, in a small number of=
+ cases noted below, underscores. Thus each valid identifier name is matched=
+ by the regular expression <span style=3D"color: rgb(51,153,102);">\w+</spa=
+n> .</p>
+<h2 id=3D"JavaStyleGuide-5.2Rulesbyidentifiertype">5.2 Rules by identifier =
+type</h2>
+<h3 id=3D"JavaStyleGuide-5.2.1Packagenames">5.2.1 Package names</h3>
+<p>Package names are all lowercase, with consecutive words simply concatena=
+ted together (no underscores). For example, <span style=3D"color: rgb(51,15=
+3,102);">com.example.deepspace</span>, not <span style=3D"color: rgb(255,0,=
+0);">com.example.deepSpace</span> or <span style=3D"color: rgb(255,0,0);">c=
+om.example.deep_space</span>.</p>
+<h3 id=3D"JavaStyleGuide-5.2.2Classnames">5.2.2 Class names</h3>
+<p>Class names are written in <strong>UpperCamelCase</strong>.</p>
+<p>Class names are typically nouns or noun phrases. For example, <span styl=
+e=3D"color: rgb(51,153,102);">Character</span> or <span style=3D"color: rgb=
+(51,153,102);">ImmutableList</span>. Interface names may also be nouns or n=
+oun phrases (for example, <span style=3D"color: rgb(51,153,102);">List</spa=
+n>), but may sometimes be adjectives or adjective phrases instead (for exam=
+ple, <span style=3D"color: rgb(51,153,102);">Readable</span>).</p>
+<p>There are no specific rules or even well-established conventions for nam=
+ing annotation types.</p>
+<p>Test classes are named starting with the name of the class they are test=
+ing, and ending with <span style=3D"color: rgb(51,153,102);">Test</span>. F=
+or example, <span style=3D"color: rgb(51,153,102);">HashTest</span> or <spa=
+n style=3D"color: rgb(51,153,102);">HashIntegrationTest</span>.</p>
+<h3 id=3D"JavaStyleGuide-5.2.3Methodnames">5.2.3 Method names</h3>
+<p>Method names are written in <strong>lowerCamelCase</strong>.</p>
+<p>Method names are typically verbs or verb phrases. For example, <span sty=
+le=3D"color: rgb(51,153,102);">sendMessage</span> or <span style=3D"color: =
+rgb(51,153,102);">stop</span>.</p>
+<p>Methods returning boolean should start with is. For example <span style=
+=3D"color: rgb(51,153,102);">isBoolean</span>.</p>
+<p>Underscores may appear in JUnit test method names to separate logical co=
+mponents of the name, with each component written in <strong>lowerCamelCase=
+</strong>. One typical pattern is <span style=3D"color: rgb(51,153,102);">&=
+lt;methodUnderTest&gt;_&lt;state&gt;</span>, for example <span style=3D"col=
+or: rgb(51,153,102);">pop_emptyStack</span>. There is no One Correct Way to=
+ name test methods.</p>
+<h3 id=3D"JavaStyleGuide-5.2.4Constantnames">5.2.4 Constant names</h3>
+<p>Constant names use <strong>CONSTANT_CASE</strong>: all uppercase letters=
+, with each word separated from the next by a single underscore. But what i=
+s a constant, exactly?</p>
+<p>Constants are static final fields whose contents are deeply immutable an=
+d whose methods have no detectable side effects. This includes primitives, =
+Strings, immutable types, and immutable collections of immutable types. If =
+any of the instance's observable state can change, it is not a</p>
+<p>constant. Merely intending to never mutate the object is not enough.</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">=20
+<div class=3D"codeHeader panelHeader pdl hide-border-bottom" style=3D"borde=
+r-bottom-width: 1px;">=20
+<b class=3D"code-title">Examples</b>=20
+<span class=3D"collapse-source expand-control" style=3D"display:none;"><spa=
+n class=3D"expand-control-icon icon">&nbsp;</span><span class=3D"expand-con=
+trol-text">Expand source</span></span>=20
+<span class=3D"collapse-spinner-wrapper"></span>=20
+</div>=20
+<div class=3D"codeContent panelContent pdl hide-toolbar">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: true; theme: DJango; collapse: true" data-theme=3D"DJango">=
+// Constants
+static final int NUMBER =3D 5;
+static final ImmutableList&lt;String&gt; NAMES =3D ImmutableList.of("Ed", "=
+Ann");
+static final ImmutableMap&lt;String, Integer&gt; AGES =3D ImmutableMap.of("=
+Ed", 35, "Ann", 32);
+static final Joiner COMMA_JOINER =3D Joiner.on(','); // because Joiner is i=
+mmutable
+static final SomeMutableType[] EMPTY_ARRAY =3D {};
+enum SomeEnum { ENUM_CONSTANT }
+
+// Not constants
+static String nonFinal =3D "non-final";
+final String nonStatic =3D "non-static";
+static final Set&lt;String&gt; mutableCollection =3D new HashSet&lt;String&=
+gt;();
+static final ImmutableSet&lt;SomeMutableType&gt; mutableElements =3D Immuta=
+bleSet.of(mutable);
+static final ImmutableMap&lt;String, SomeMutableType&gt; mutableValues =3D
+    ImmutableMap.of("Ed", mutableInstance, "Ann", mutableInstance2);
+static final Logger logger =3D Logger.getLogger(MyClass.getName());
+static final String[] nonEmptyArray =3D {"these", "can", "change"};</pre>=
+=20
+</div>=20
+</div>
+<p>These names are typically nouns or noun phrases.</p>
+<h3 id=3D"JavaStyleGuide-5.2.5Non-constantfieldnames">5.2.5 Non-constant fi=
+eld names</h3>
+<p>Non-constant field names are written in <strong>lowerCamelCase</strong>:=
+</p>
+<p>These names are typically nouns or noun phrases. For example, <span styl=
+e=3D"color: rgb(51,153,102);">computedValues</span> or <span style=3D"color=
+: rgb(51,153,102);">index</span>.</p>
+<h3 id=3D"JavaStyleGuide-5.2.6Parameternames">5.2.6 Parameter names</h3>
+<p>Parameter names are written in <strong>lowerCamelCase</strong>.</p>
+<p>One-character parameter names in public methods should be avoided.</p>
+<h3 id=3D"JavaStyleGuide-5.2.7Localvariablenames">5.2.7 Local variable name=
+s</h3>
+<p>Local variable names are written in <strong>lowerCamelCase</strong>.</p>
+<p>Even when final and immutable, local variables are not considered to be =
+constants, and should not be styled as constants.</p>
+<h3 id=3D"JavaStyleGuide-5.2.8Typevariablenames">5.2.8 Type variable names<=
+/h3>
+<p>Each type variable is named in one of two styles:</p>
+<ul style=3D"list-style-type: square;">
+<li>A single capital letter, optionally followed by a single numeral (such =
+as E, T, X, T2)</li>
+<li>A name in the form used for classes (see Section 5.2.2, Class names), f=
+ollowed by the capital letter T (examples: <span style=3D"color: rgb(51,153=
+,102);">RequestT</span>, <span style=3D"color: rgb(51,153,102);">FooBarT</s=
+pan>).</li>
+</ul>
+<h2 id=3D"JavaStyleGuide-5.3Camelcase:defined">5.3 Camel case: defined</h2>
+<p>Sometimes there is more than one reasonable way to convert an English ph=
+rase into camel case, such as when acronyms or unusual constructs like "IPv=
+6" or "iOS" are present. To improve predictability, Style specifies the fol=
+lowing (nearly) deterministic scheme.</p>
+<p>Beginning with the prose form of the name:</p>
+<ol>
+<li>Convert the phrase to plain ASCII and remove any apostrophes. For examp=
+le, "M=C3=BCller's algorithm" might become "Muellers algorithm".</li>
+<li>Divide this result into words, splitting on spaces and any remaining pu=
+nctuation (typically hyphens).&nbsp;<br><strong>Recommended</strong>: if an=
+y word already has a conventional camel-case appearance in common usage, sp=
+lit this into its constituent parts (e.g., "AdWords" becomes "ad&nbsp;words=
+"). Note that a word such as "iOS" is not really in camel case per se; it d=
+efies any convention, so this recommendation does not apply.</li>
+</ol>
+<p style=3D"margin-left: 30.0px;">3. Now lowercase everything (including ac=
+ronyms), then uppercase only the first character of:</p>
+<ul style=3D"list-style-type: square;">
+<li style=3D"list-style-type: none;background-image: none;">
+<ul style=3D"list-style-type: square;">
+<li>... each word, to yield upper camel case, or&nbsp;</li>
+<li>... each word except the first, to yield lower camel case</li>
+</ul></li>
+</ul>
+<p style=3D"margin-left: 30.0px;">4. Finally, join all the words into a sin=
+gle identifier.</p>
+<p>Note that the casing of the original words is almost entirely disregarde=
+d.</p>
+<p>Examples:</p>
+<div class=3D"table-wrap">
+<table class=3D"confluenceTable">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh">Prose form</th>
+<th class=3D"confluenceTh">Correct</th>
+<th class=3D"confluenceTh">Incorrect</th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">"XML HTTP request"</td>
+<td class=3D"confluenceTd">XmlHttpRequest</td>
+<td class=3D"confluenceTd">XMLHTTPRequest</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">"new customer ID"</td>
+<td class=3D"confluenceTd">newCustomerId</td>
+<td class=3D"confluenceTd">newCustomerID</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">"inner stopwatch"</td>
+<td class=3D"confluenceTd">innerStopwatch</td>
+<td class=3D"confluenceTd">innerStopWatch</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">"supports IPv6 on iOS?"</td>
+<td colspan=3D"1" class=3D"confluenceTd">supportsIpv6OnIos</td>
+<td colspan=3D"1" class=3D"confluenceTd">supportsIPv6OnIOS</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">"YouTube importer"</td>
+<td colspan=3D"1" class=3D"confluenceTd"><p>YouTubeImporter</p><p>YoutubeIm=
+porter*</p></td>
+<td colspan=3D"1" class=3D"confluenceTd"><br></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>*Acceptable, but not recommended.</p>
+<p><strong>Note</strong>: Some words are ambiguously hyphenated in the Engl=
+ish language: for example "nonempty" and "non-empty" are both correct, so t=
+he method names checkNonempty and checkNonEmpty are likewise both correct.<=
+/p>
+<h1 id=3D"JavaStyleGuide-6ProgrammingPractices">6 Programming Practices</h1=
+>
+<h2 id=3D"JavaStyleGuide-6.1@Override:alwaysused">6.1 @Override: always use=
+d</h2>
+<p>A method is marked with the <span style=3D"color: rgb(51,153,102);">@Ove=
+rride</span> annotation whenever it is legal. This includes a class method =
+overriding a superclass method, a class method implementing an interface me=
+thod, and an interface method respecifying a superinterface method.</p>
+<p>Exception: <span style=3D"color: rgb(51,153,102);">@Override</span> may =
+be omitted when the parent method is <span style=3D"color: rgb(51,153,102);=
+">@Deprecated</span>.</p>
+<h2 id=3D"JavaStyleGuide-6.2Caughtexceptions:notignored">6.2 Caught excepti=
+ons: not ignored</h2>
+<p>Except as noted below, it is very rarely correct to do nothing in respon=
+se to a caught exception. (Typical responses are to log it, or if it is con=
+sidered "impossible", rethrow it as an <span style=3D"color: rgb(51,153,102=
+);">AssertionError</span>.)</p>
+<p>When it truly is appropriate to take no action whatsoever in a catch blo=
+ck, the reason this is justified is explained in a comment.</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">=20
+<div class=3D"codeHeader panelHeader pdl hide-border-bottom" style=3D"borde=
+r-bottom-width: 1px;">=20
+<b class=3D"code-title">Examples</b>=20
+<span class=3D"collapse-source expand-control" style=3D"display:none;"><spa=
+n class=3D"expand-control-icon icon">&nbsp;</span><span class=3D"expand-con=
+trol-text">Expand source</span></span>=20
+<span class=3D"collapse-spinner-wrapper"></span>=20
+</div>=20
+<div class=3D"codeContent panelContent pdl hide-toolbar">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: true; theme: DJango; collapse: true" data-theme=3D"DJango">=
+try {
+    int i =3D Integer.parseInt(response);
+    return handleNumericResponse(i);
+} catch (NumberFormatException ok) {
+    // it's not numeric; that's fine, just continue
+}
+return handleTextResponse(response);</pre>=20
+</div>=20
+</div>
+<p>Exception: In tests, a caught exception may be ignored without comment i=
+f its name is or begins with expected. The following is a very common idiom=
+ for ensuring that the code under test does throw an exception of the expec=
+ted type, so a comment is unnecessary here.</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">=20
+<div class=3D"codeHeader panelHeader pdl hide-border-bottom" style=3D"borde=
+r-bottom-width: 1px;">=20
+<b class=3D"code-title">Examples</b>=20
+<span class=3D"collapse-source expand-control" style=3D"display:none;"><spa=
+n class=3D"expand-control-icon icon">&nbsp;</span><span class=3D"expand-con=
+trol-text">Expand source</span></span>=20
+<span class=3D"collapse-spinner-wrapper"></span>=20
+</div>=20
+<div class=3D"codeContent panelContent pdl hide-toolbar">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: true; theme: DJango; collapse: true" data-theme=3D"DJango">=
+try {
+    emptyStack.pop();
+    fail();
+} catch (NoSuchElementException expected) {
+}</pre>=20
+</div>=20
+</div>
+<h2 id=3D"JavaStyleGuide-6.3Staticmembers:qualifiedusingclass">6.3 Static m=
+embers: qualified using class</h2>
+<p>When a reference to a static class member must be qualified, it is quali=
+fied with that class's name, not with a reference or expression of that cla=
+ss's type.</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">=20
+<div class=3D"codeHeader panelHeader pdl hide-border-bottom" style=3D"borde=
+r-bottom-width: 1px;">=20
+<b class=3D"code-title">Examples</b>=20
+<span class=3D"collapse-source expand-control" style=3D"display:none;"><spa=
+n class=3D"expand-control-icon icon">&nbsp;</span><span class=3D"expand-con=
+trol-text">Expand source</span></span>=20
+<span class=3D"collapse-spinner-wrapper"></span>=20
+</div>=20
+<div class=3D"codeContent panelContent pdl hide-toolbar">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: true; theme: DJango; collapse: true" data-theme=3D"DJango">=
+Foo aFoo =3D ...;
+Foo.aStaticMethod(); // good
+aFoo.aStaticMethod(); // bad
+somethingThatYieldsAFoo().aStaticMethod(); // very bad</pre>=20
+</div>=20
+</div>
+<h2 id=3D"JavaStyleGuide-6.4Finalizers:notused">6.4 Finalizers: not used</h=
+2>
+<p>It is extremely rare to override Object.finalize.</p>
+<div class=3D"confluence-information-macro confluence-information-macro-inf=
+ormation">
+<p class=3D"title">Tip</p>
+<span class=3D"aui-icon aui-icon-small aui-iconfont-info confluence-informa=
+tion-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p>Don't do it. If you absolutely must, first read and understand Effective=
+ Java Item 7, "Avoid Finalizers," very carefully, and then don't do it.</p>
+</div>
+</div>
+<h2 id=3D"JavaStyleGuide-6.5Classimmutability">6.5 Class immutability</h2>
+<p>Wherever applicable object fields:</p>
+<ul style=3D"list-style-type: square;">
+<li>Should be not-modifiable (final)</li>
+<li>Should not have a setter method</li>
+<li>If object, their getter method should return a copy of the object =E2=
+=80=93 escaping indirect object manipulation
+<ul style=3D"list-style-type: square;">
+<li>The setter should set a copy of the input object</li>
+</ul></li>
+</ul>
+<p>This is considered not only a secure programming approach but also a goo=
+d programing practice. Classes in most of the up-to-date libraries implemen=
+t this approach.</p>
+<p><strong>Exception</strong>: hibernate ORM (bean) classes</p>
+<h2 id=3D"JavaStyleGuide-6.6Parameterextraction">6.6 Parameter extraction</=
+h2>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">=20
+<div class=3D"codeHeader panelHeader pdl hide-border-bottom" style=3D"borde=
+r-bottom-width: 1px;">=20
+<b class=3D"code-title">Examples</b>=20
+<span class=3D"collapse-source expand-control" style=3D"display:none;"><spa=
+n class=3D"expand-control-icon icon">&nbsp;</span><span class=3D"expand-con=
+trol-text">Expand source</span></span>=20
+<span class=3D"collapse-spinner-wrapper"></span>=20
+</div>=20
+<div class=3D"codeContent panelContent pdl hide-toolbar">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: true; theme: DJango; collapse: true" data-theme=3D"DJango">=
+// Not recommended
+bool ae =3D anObject.extractParameter(a).getName().equals(e);=20
+bool ab =3D anObject.extractParameter(a).getName().equals(b);
+bool ac =3D anObject.extractParameter(a).getName().equals(c);
+
+
+// Recommended
+Object aName =3D anObject.extractParameter(a).getName();
+bool ae =3D aName.equals(e);=20
+bool ab =3D aName.equals(b);=20
+bool ac =3D aName.equals(c);</pre>=20
+</div>=20
+</div>
+<p>This practice ensures less and clean code. Potentially an execution time=
+ could be saved in case the repeated method executes slowly.</p>
+<p><strong>Class immutability</strong> and <strong>parameter extraction</st=
+rong> practices suggests an unusual approach for working with internal obje=
+cts:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">=20
+<div class=3D"codeHeader panelHeader pdl hide-border-bottom" style=3D"borde=
+r-bottom-width: 1px;">=20
+<b class=3D"code-title">Examples</b>=20
+<span class=3D"collapse-source expand-control" style=3D"display:none;"><spa=
+n class=3D"expand-control-icon icon">&nbsp;</span><span class=3D"expand-con=
+trol-text">Expand source</span></span>=20
+<span class=3D"collapse-spinner-wrapper"></span>=20
+</div>=20
+<div class=3D"codeContent panelContent pdl hide-toolbar">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: true; theme: DJango; collapse: true" data-theme=3D"DJango">=
+// Not recommended
+anObject.getInternalObject().setName(...);
+anObject.getInternalObject().setId(...);
+anObject.getInternalObject().setBase(...);
+anObject.getInternalObject().setAnotherObject(...);
+
+
+// Recommended
+Object internalObject =3D anObject.getInternalObject();
+internalObject.setName(...);
+internalObject.setId(...);
+internalObject.setBase(...);
+internalObject.setAnotherObject(...);
+anObject.setInternalObject(internalObject);</pre>=20
+</div>=20
+</div>
+<h2 id=3D"JavaStyleGuide-6.7Utilityclasses">6.7 Utility classes</h2>
+<p>Avoid creating classes with only constants. Usually those constants belo=
+ng to a class that have actual logic in it. In case you have to create one,=
+ think if it's not possible to actually make an enum.</p>
+<p>If Utility class should be created make sure that it's designed in a way=
+ to prevent inheritance (unless there's a special reason for it) =E2=80=93 =
+use final keyword and instantiation =E2=80=93 use private constructor.</p>
+<h1 id=3D"JavaStyleGuide-7Javadoc">7 Javadoc</h1>
+<h2 id=3D"JavaStyleGuide-7.1Formatting">7.1 Formatting</h2>
+<h3 id=3D"JavaStyleGuide-7.1.1Generalform">7.1.1 General form</h3>
+<p>The basic formatting of Javadoc blocks is as seen in this example:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">=20
+<div class=3D"codeHeader panelHeader pdl hide-border-bottom" style=3D"borde=
+r-bottom-width: 1px;">=20
+<b class=3D"code-title">Examples</b>=20
+<span class=3D"collapse-source expand-control" style=3D"display:none;"><spa=
+n class=3D"expand-control-icon icon">&nbsp;</span><span class=3D"expand-con=
+trol-text">Expand source</span></span>=20
+<span class=3D"collapse-spinner-wrapper"></span>=20
+</div>=20
+<div class=3D"codeContent panelContent pdl hide-toolbar">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: true; theme: DJango; collapse: true" data-theme=3D"DJango">=
+/**
+ * Multiple lines of Javadoc text are written here,
+ * wrapped normally...
+ */
+public int method(String p1) {=20
+
+// ... or in this single-line example:
+
+/** An especially short bit of Javadoc. */</pre>=20
+</div>=20
+</div>
+<p>The basic form is always acceptable. The single-line form may be substit=
+uted when the entirety of the Javadoc block (including comment markers) can=
+ fit on a single line. Note that this only applies when there are no block =
+tags such as <span style=3D"color: rgb(51,153,102);">@return</span>.&nbsp;<=
+/p>
+<h3 id=3D"JavaStyleGuide-7.1.2Paragraphs">7.1.2 Paragraphs</h3>
+<p>One blank line=E2=80=94that is, a line containing only the aligned leadi=
+ng asterisk (<span style=3D"color: rgb(51,153,102);">*</span>)=E2=80=94appe=
+ars between paragraphs, and before the group of block tags if present. Each=
+ paragraph but the first has <span style=3D"color: rgb(51,153,102);">&lt;p&=
+gt;</span> immediately before the first word, with no space after.</p>
+<h3 id=3D"JavaStyleGuide-7.1.3Blocktags">7.1.3 Block tags</h3>
+<p>Any of the standard "block tags" that are used appear in the order <span=
+ style=3D"color: rgb(51,153,102);">@param</span>, <span style=3D"color: rgb=
+(51,153,102);">@return</span>, <span style=3D"color: rgb(51,153,102);">@thr=
+ows</span>, <span style=3D"color: rgb(51,153,102);">@deprecated</span>, and=
+ these four types never appear with an empty description. When a block tag =
+doesn't fit on a single line, continuation lines are indented four (or more=
+) spaces from the position of the <span style=3D"color: rgb(51,153,102);">@=
+</span>.</p>
+<h2 id=3D"JavaStyleGuide-7.2Thesummaryfragment">7.2 The summary fragment</h=
+2>
+<p>Each Javadoc block begins with a brief <strong>summary fragment</strong>=
+. This fragment is very important: it is the only part of the text that app=
+ears in certain contexts such as class and method indexes.<br>This is a fra=
+gment=E2=80=94a noun phrase or verb phrase, not a complete sentence. It doe=
+s not begin with A {@code Foo} is a..., or This method returns..., nor does=
+ it form a complete imperative sentence like Save the record.. However, the=
+ fragment is capitalized and punctuated as if it were a complete sentence.<=
+/p>
+<div class=3D"confluence-information-macro confluence-information-macro-inf=
+ormation">
+<p class=3D"title">Tip</p>
+<span class=3D"aui-icon aui-icon-small aui-iconfont-info confluence-informa=
+tion-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p>A common mistake is to write simple Javadoc in the form /** @return the =
+customer ID */. This is incorrect, and should be changed to /** Returns the=
+ customer ID. */.</p>
+</div>
+</div>
+<h2 id=3D"JavaStyleGuide-7.3WhereJavadocisused">7.3 Where Javadoc is used</=
+h2>
+<p>At the minimum, Javadoc is present for every <span style=3D"color: rgb(5=
+1,153,102);">public</span> class, and every <span style=3D"color: rgb(51,15=
+3,102);">public</span> or <span style=3D"color: rgb(51,153,102);">protected=
+</span> member of such a class, with a few exceptions noted below.<br>Addit=
+ional Javadoc content may also be present, as explained in Section 7.3.4, N=
+on-required Javadoc.</p>
+<h3 id=3D"JavaStyleGuide-7.3.1Exception:self-explanatorymethods">7.3.1 Exce=
+ption: self-explanatory methods</h3>
+<p>Javadoc is optional for "simple, obvious" methods like getFoo, in cases =
+where there really and truly is nothing else worthwhile to say but "Returns=
+ the foo".<br><strong>Important</strong>: it is not appropriate to cite thi=
+s exception to justify omitting relevant information that a typical reader =
+might need to know. For example, for a method named getCanonicalName, don't=
+ omit its documentation (with the rationale that it would say only /** Retu=
+rns the canonical name. */) if a typical reader may have no idea what the t=
+erm "canonical name" means!</p>
+<h3 id=3D"JavaStyleGuide-7.3.2Exception:overrides">7.3.2 Exception: overrid=
+es</h3>
+<p>Javadoc is not always present on a method that overrides a supertype met=
+hod.</p>
+<h3 id=3D"JavaStyleGuide-7.3.4Non-requiredJavadoc">7.3.4 Non-required Javad=
+oc</h3>
+<p>Other classes and members have Javadoc as needed or desired. <br>Wheneve=
+r an implementation comment would be used to define the overall purpose or =
+behavior of a class or member, that comment is written as Javadoc instead (=
+using <span style=3D"color: rgb(51,153,102);">/**</span>).<br>Non-required =
+Javadoc is not strictly required to follow the formatting rules of Sections=
+ 7.1.2, 7.1.3, and 7.2, though it is of course recommended.</p>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+    </div>
+</body>
+</html>
+------=_Part_72974_1393606650.1588414672896--
