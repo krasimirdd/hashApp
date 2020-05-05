@@ -7,10 +7,10 @@ import org.junit.jupiter.params.provider.NullSource;
 import org.junit.jupiter.params.provider.ValueSource;
 
 import java.io.ByteArrayInputStream;
+import java.security.NoSuchAlgorithmException;
 import java.util.Scanner;
 
-import static org.junit.jupiter.api.Assertions.assertDoesNotThrow;
-import static org.junit.jupiter.api.Assertions.assertThrows;
+import static org.junit.jupiter.api.Assertions.*;
 
 @ExtendWith(TestHelper.TestResultLoggerExtension.class)
 public class FkstHashConsoleTest extends TestHelper {
@@ -18,6 +18,8 @@ public class FkstHashConsoleTest extends TestHelper {
     @ParameterizedTest
     @ValueSource(strings = {"password", "changeit", "1234", " ", "[Sv.NB]D3X<;f/W[X&VKta:}hUe*3)r/'jeV6fx6W)W]qUA{yMx=ns<^p@9&%W8G"})
     void generateHash(String input) {
+        String expected = getBCsha(input);
+
         final ByteArrayInputStream inStream = new ByteArrayInputStream(input.getBytes());
         System.setIn(inStream);
         Scanner scanner = new Scanner(System.in);
@@ -25,6 +27,7 @@ public class FkstHashConsoleTest extends TestHelper {
         assertDoesNotThrow(() -> {
             String actual = FkstHashConsole.generateSha3_512(scanner.nextLine());
             logger.info(" -> result  :  " + actual);
+            assertEquals(expected, actual);
         });
     }
 

@@ -14,10 +14,12 @@ public class FkstHashStringTest extends TestHelper {
     @ParameterizedTest
     @ValueSource(strings = {"password", "changeit", "1234", " ", "[Sv.NB]D3X<;f/W[X&VKta:}hUe*3)r/'jeV6fx6W)W]qUA{yMx=ns<^p@9&%W8G"})
     void generateHash(String data) {
+        String expected = getBCsha(data);
 
         assertDoesNotThrow(() -> {
             String actual = FkstHashString.generateSha3_512(data);
             logger.info(" -> result  :  " + actual);
+            assertEquals(expected, actual);
         });
     }
 

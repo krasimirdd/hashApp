@@ -5,10 +5,10 @@ import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.NullSource;
 import org.junit.jupiter.params.provider.ValueSource;
 
+import java.io.IOException;
 import java.nio.file.Path;
 
-import static org.junit.jupiter.api.Assertions.assertDoesNotThrow;
-import static org.junit.jupiter.api.Assertions.assertThrows;
+import static org.junit.jupiter.api.Assertions.*;
 
 @ExtendWith(TestHelper.TestResultLoggerExtension.class)
 public class FkstHashFileTest extends TestHelper {
@@ -17,11 +17,13 @@ public class FkstHashFileTest extends TestHelper {
     @ValueSource(strings = {
             "src\\test\\resources\\test_1", "src\\test\\resources\\test_2", "src\\test\\resources\\test_3",
             "src\\test\\resources\\test_4", "src\\test\\resources\\test_5", "src\\test\\resources\\test_6"})
-    void generateHash(Path path) {
+    void generateHash(Path path) throws IOException {
+        String expected = getBCsha(path);
 
         assertDoesNotThrow(() -> {
             String actual = FkstHashFile.generateSha3_512(path);
             logger.info(" -> result  :  " + actual);
+            assertEquals(expected, actual);
         });
     }
 

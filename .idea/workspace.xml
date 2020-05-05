@@ -1,7 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9ecd7da-7b13-4b4c-9495-f9d6f8c21aaa" name="Default Changelist" comment="" />
+    <list default="true" id="a9ecd7da-7b13-4b4c-9495-f9d6f8c21aaa" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/intellij-javadocs-4.0.1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/iaik_jce.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/app/Parameters.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/app/Parameters.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/FkstHashConsoleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/FkstHashConsoleTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/FkstHashFileTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/FkstHashFileTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/TestHelper$TestResultLoggerExtension$TestResultStatus.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/TestHelper$TestResultLoggerExtension$TestResultStatus.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/TestHelper$TestResultLoggerExtension.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/TestHelper$TestResultLoggerExtension.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/TestHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/TestHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/hashApp-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/hashApp-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/FkstHashConsoleTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/FkstHashConsoleTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/FkstHashFileTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/FkstHashFileTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/FkstHashStringTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/FkstHashStringTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/HexUtilsTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/HexUtilsTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-FkstHashConsoleTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-FkstHashConsoleTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-FkstHashFileTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-FkstHashFileTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-FkstHashStringTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-FkstHashStringTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-HexUtilsTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-HexUtilsTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FkstHashConsoleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FkstHashConsoleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FkstHashFileTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FkstHashFileTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FkstHashStringTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FkstHashStringTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestHelper.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,6 +107,17 @@
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="build setup" type="c8890929:TasksNode$1" />
               </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="hashApp" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="other" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="hashApp" type="f1a62948:ProjectNode" />
+                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
+              </path>
             </expand>
             <select />
           </tree_state>
@@ -79,6 +152,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="ignore_missing_gitignore" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -86,34 +160,37 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.41379312" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="show.unlinked.gradle.project.popup" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\kdimitrov\Home\Java\hashApp\lib" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\kdimitrov\Home\Java\hashApp\src\test\resources" />
       <recent name="C:\Users\kdimitrov\Home\Java\hashApp\src\main\java" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="" />
+    </key>
   </component>
   <component name="RunManager" selected="Gradle.hashApp [test]">
-    <configuration name="HexUtilsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="FkstHashFileTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;HexUtilsTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;FkstHashFileTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -127,23 +204,61 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="HexUtilsTest.convertToUint" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="hashApp [compileJava]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;HexUtilsTest.convertToUint&quot;" />
+        <option name="scriptParameters" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value=":test" />
+            <option value="compileJava" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="hashApp [compileTestJava]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="compileTestJava" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="hashApp [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="dependencies" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
     <configuration name="hashApp [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
@@ -164,30 +279,6 @@
       </ExternalSystemSettings>
       <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
-    </configuration>
-    <configuration name="FkstHashStringTest.generateHash" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="hashApp.test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FkstHashStringTest" />
-      <option name="METHOD_NAME" value="generateHash(java.lang.String)" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-        <option name="BSP.BeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HexUtilsTest" type="JUnit" factoryName="JUnit" temporary="true">
-      <module name="hashApp.test" />
-      <useClassPathOnly />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="HexUtilsTest" />
-      <option name="METHOD_NAME" value="convertFromLittleEndianTo64_AndBack" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="PARAMETERS" value="" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-        <option name="BSP.BeforeRunTask" enabled="true" />
-      </method>
     </configuration>
     <configuration name="HexUtilsTest.convertToUint" type="JUnit" factoryName="JUnit">
       <module name="hashApp.test" />
@@ -210,20 +301,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Gradle.HexUtilsTest" />
-      <item itemvalue="Gradle.HexUtilsTest.convertToUint" />
       <item itemvalue="JUnit.HexUtilsTest.convertToUint" />
-      <item itemvalue="JUnit.HexUtilsTest" />
-      <item itemvalue="JUnit.FkstHashStringTest.generateHash" />
+      <item itemvalue="Gradle.hashApp [compileJava]" />
+      <item itemvalue="Gradle.hashApp [compileTestJava]" />
+      <item itemvalue="Gradle.FkstHashFileTest" />
+      <item itemvalue="Gradle.hashApp [dependencies]" />
       <item itemvalue="Gradle.hashApp [test]" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.hashApp [test]" />
-        <item itemvalue="Gradle.HexUtilsTest" />
-        <item itemvalue="Gradle.HexUtilsTest.convertToUint" />
-        <item itemvalue="JUnit.HexUtilsTest" />
-        <item itemvalue="JUnit.FkstHashStringTest.generateHash" />
+        <item itemvalue="Gradle.hashApp [dependencies]" />
+        <item itemvalue="Gradle.FkstHashFileTest" />
+        <item itemvalue="Gradle.hashApp [compileTestJava]" />
+        <item itemvalue="Gradle.hashApp [compileJava]" />
       </list>
     </recent_temporary>
   </component>
@@ -240,12 +331,24 @@
       <workItem from="1587898456883" duration="21109000" />
       <workItem from="1587969385224" duration="220000" />
       <workItem from="1588407299340" duration="700000" />
-      <workItem from="1588408046222" duration="9909000" />
+      <workItem from="1588408046222" duration="10515000" />
+      <workItem from="1588672375357" duration="2530000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state x="586" y="218" key="#Inspections" timestamp="1587934040299">
@@ -256,10 +359,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="440" y="114" key="#Project_Structure/0.0.1920.1080@0.0.1920.1080" timestamp="1587913698964" />
-    <state x="414" y="194" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588417868443">
+    <state x="414" y="194" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588674037266">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="414" y="194" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1588417868443" />
+    <state x="414" y="194" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1588674037266" />
     <state x="92" y="92" width="1736" height="896" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1588409083645">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -304,42 +407,42 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="702" y="160" key="Github.UntrackedFilesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1588419899098" />
-    <state width="1875" height="283" key="GridCell.Tab.0.bottom" timestamp="1588417782604">
+    <state width="1875" height="285" key="GridCell.Tab.0.bottom" timestamp="1588674825253">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1875" height="283" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1588417782604" />
-    <state width="1875" height="283" key="GridCell.Tab.0.center" timestamp="1588417782603">
+    <state width="1875" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1588674825253" />
+    <state width="1875" height="285" key="GridCell.Tab.0.center" timestamp="1588674825253">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1875" height="283" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1588417782603" />
-    <state width="1875" height="283" key="GridCell.Tab.0.left" timestamp="1588417782603">
+    <state width="1875" height="285" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1588674825253" />
+    <state width="1875" height="285" key="GridCell.Tab.0.left" timestamp="1588674825253">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1875" height="283" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1588417782603" />
-    <state width="1875" height="283" key="GridCell.Tab.0.right" timestamp="1588417782604">
+    <state width="1875" height="285" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1588674825253" />
+    <state width="1875" height="285" key="GridCell.Tab.0.right" timestamp="1588674825253">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1875" height="283" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1588417782604" />
-    <state width="1875" height="360" key="GridCell.Tab.1.bottom" timestamp="1588410459865">
+    <state width="1875" height="285" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1588674825253" />
+    <state width="1875" height="360" key="GridCell.Tab.1.bottom" timestamp="1588673895252">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1875" height="360" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1588410459865" />
-    <state width="1875" height="360" key="GridCell.Tab.1.center" timestamp="1588410459865">
+    <state width="1875" height="360" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1588673895252" />
+    <state width="1875" height="360" key="GridCell.Tab.1.center" timestamp="1588673895251">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1875" height="360" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1588410459865" />
-    <state width="1875" height="360" key="GridCell.Tab.1.left" timestamp="1588410459865">
+    <state width="1875" height="360" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1588673895251" />
+    <state width="1875" height="360" key="GridCell.Tab.1.left" timestamp="1588673895251">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1875" height="360" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1588410459865" />
-    <state width="1875" height="360" key="GridCell.Tab.1.right" timestamp="1588410459865">
+    <state width="1875" height="360" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1588673895251" />
+    <state width="1875" height="360" key="GridCell.Tab.1.right" timestamp="1588673895252">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1875" height="360" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1588410459865" />
-    <state x="468" y="184" key="SettingsEditor" timestamp="1587916737714">
+    <state width="1875" height="360" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1588673895252" />
+    <state x="468" y="184" key="SettingsEditor" timestamp="1588674803241">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="468" y="184" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1587916737714" />
+    <state x="468" y="184" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1588674803241" />
     <state width="968" height="548" key="XDebugger.FullValuePopup" timestamp="1587903855287">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -374,23 +477,18 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/FkstHashStringTest.java</url>
-          <line>65</line>
+          <line>67</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/FkstHashConsoleTest.java</url>
-          <line>42</line>
+          <line>45</line>
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/FkstHashFileTest.java</url>
-          <line>22</line>
+          <line>23</line>
           <option name="timeStamp" value="16" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/FkstHashFileTest.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/HexUtilsTest.java</url>

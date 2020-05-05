@@ -1,8 +1,14 @@
+import org.bouncycastle.jcajce.provider.digest.SHA3;
+import org.bouncycastle.util.encoders.Hex;
 import org.junit.jupiter.api.extension.AfterAllCallback;
 import org.junit.jupiter.api.extension.BeforeEachCallback;
 import org.junit.jupiter.api.extension.ExtensionContext;
 import org.junit.jupiter.api.extension.TestWatcher;
 
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.security.NoSuchAlgorithmException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
@@ -69,4 +75,18 @@ public class TestHelper {
 
     }
 
+    public String getBCsha(String data) {
+        final SHA3.DigestSHA3 sha3 = new SHA3.Digest512();
+        sha3.update(data.getBytes());
+
+        return new String(Hex.encode(sha3.digest()));
+    }
+
+    public String getBCsha(Path path) throws IOException {
+        final SHA3.DigestSHA3 sha3 = new SHA3.Digest512();
+        byte[] bytes = Files.readAllBytes(path);
+        sha3.update(bytes);
+
+        return new String(Hex.encode(sha3.digest()));
+    }
 }

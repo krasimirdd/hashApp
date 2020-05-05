@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="HexUtilsTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-05-02T09:30:58" hostname="ITEM-AX32210" time="0.015">
+<testsuite name="HexUtilsTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-05-05T10:35:14" hostname="ITEM-AX32210" time="0.008">
   <properties/>
-  <testcase name="convertFromLittleEndianTo64_AndBack()" classname="HexUtilsTest" time="0.01"/>
-  <testcase name="convertToUint()" classname="HexUtilsTest" time="0.004"/>
+  <testcase name="convertFromLittleEndianTo64_AndBack()" classname="HexUtilsTest" time="0.005"/>
+  <testcase name="convertToUint()" classname="HexUtilsTest" time="0.002"/>
   <system-out><![CDATA[Actual: ???p???a???s???s???w???o???r???d
 Expected: password
 ]]></system-out>
-  <system-err><![CDATA[May 02, 2020 12:30:58 PM TestHelper$TestResultLoggerExtension beforeEach
+  <system-err><![CDATA[May 05, 2020 1:35:14 PM TestHelper$TestResultLoggerExtension beforeEach
 INFO: Executing test public void HexUtilsTest.convertFromLittleEndianTo64_AndBack()
-May 02, 2020 12:30:58 PM TestHelper$TestResultLoggerExtension testSuccessful
+May 05, 2020 1:35:14 PM TestHelper$TestResultLoggerExtension testSuccessful
 INFO: Test Successful for test public void HexUtilsTest.convertFromLittleEndianTo64_AndBack() - convertFromLittleEndianTo64_AndBack() 
-May 02, 2020 12:30:58 PM TestHelper$TestResultLoggerExtension beforeEach
+May 05, 2020 1:35:14 PM TestHelper$TestResultLoggerExtension beforeEach
 INFO: Executing test public void HexUtilsTest.convertToUint()
-May 02, 2020 12:30:58 PM TestHelper$TestResultLoggerExtension testSuccessful
+May 05, 2020 1:35:14 PM TestHelper$TestResultLoggerExtension testSuccessful
 INFO: Test Successful for test public void HexUtilsTest.convertToUint() - convertToUint() 
-May 02, 2020 12:30:58 PM TestHelper$TestResultLoggerExtension afterAll
+May 05, 2020 1:35:14 PM TestHelper$TestResultLoggerExtension afterAll
 INFO: Test result summary for HexUtilsTest {SUCCESSFUL=2}
-May 02, 2020 12:30:58 PM TestHelper$TestResultLoggerExtension afterAll
+May 05, 2020 1:35:14 PM TestHelper$TestResultLoggerExtension afterAll
 INFO: 
 
 
